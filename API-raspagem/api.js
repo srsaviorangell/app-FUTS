@@ -74,7 +74,7 @@ async function apiRasp(url) {
 
     // Capture e combine os dados
     const dados = await combinarDados(visuDate);
-    console.log(JSON.stringify(dados, null, 2)); // Exibe a saída de forma formatada
+    console.log(dados); 
 
     // Fechar o navegador
     await browser.close();
