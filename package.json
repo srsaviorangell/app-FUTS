@@ -1,0 +1,21 @@
+{
+  "name": "app-futs",
+  "version": "1.0.0",
+  "description": "APP FUTS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon API-raspagem/api.js",
+    "api": "node API-raspagem/api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.20.0",
+    "puppeteer": "^23.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
