@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "app-futs": "file:",
     "express": "^4.20.0",
     "puppeteer": "^23.3.0"
   },

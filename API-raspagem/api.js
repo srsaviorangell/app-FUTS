@@ -1,83 +1,113 @@
 const express = require('express');
-const puppeteer = require('puppeteer');
+const fs = require('fs');
 const app = express();
+const puppeteer = require('puppeteer');
+
 const url = "https://www.sofascore.com/";
 
 const seletores = {
-    dadosJogos: '.Box.Flex.dvkfVt',
-    hora: '.Text.kcRyBI',
-    escuH1: '.Box.hYFYfq',
-    nomeH1: '.Text.ezSveL',
-    placarH1: '.Text.cvwZXc.currentScore',
-    escuH2: '.Box.hYFYfq',
-    nomeH2: '.Text.ezSveL',
-    placarH2: '.Box.Flex.dvkfVt',
-    timeJogo: '.Box.Flex.jTiCHC.cRYpNI.sc-efac74ba-2.gxmYGv.score-box'
+    delimitador: '.HorizontalDivider.gqlAIl',
+    conteCampeonato: '.Box.klGMtt',
+    paisOuLiga: '.Box.Flex.eHnLBZ a:nth-child(1) bdi',
+    imgPais: '.Img.ccYJkt',
+    conteTemHo: '.Box.Flex.cBIkhT.cQgcrM.sc-929a8fc9-0.dvkfVt',
+    tempo: '[data-testid="event_time"], .Text.kcRyBI',
+    horario: '[data-testid="event_status"], .Box.Flex.jTiCHC.cRYpNI.sc-efac74ba-2.gxmYGv.score-box',
+    conteInfoTimes: '.Box.dtLxRI',
+    nomeH1: '[data-testid="left_team"], .Text.ezSveL',
+    escudoH1: '[data-testid="left_team"] .Img.jbaYme',
+    nomeH2: '[data-testid="right_team"], .Text.ezSveL',
+    escudoH2: '[data-testid="right_team"] .Img.jbaYme',
+    contePlacar: '.Box.Flex.gulcjH.yaNbA',
+    placarH1: '[data-testid="left_score"], .Text.cvwZXc.currentScore',
+    placarH2: '[data-testid="right_score"], .Text.cvwZXc.currentScore'
 };
 
 async function apiRasp(url) {
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: true }); // headless: true para não abrir uma janela do navegador
     const page = await browser.newPage();
-    await page.goto(url);
+    await page.goto(url, { timeout: 35000 });
 
-    const selector = '.dmnHLc'; // Seletor do botão para abrir eventos ao vivo
-
-    console.log('Seletor encontrado. Simulando o clique...');
-
-    // Simule o clique no botão
+    // Clique para expandir eventos ao vivo (se necessário)
+    const selectorExpand = '.dmnHLc';
+    console.log('Tentando encontrar e clicar no seletor de eventos ao vivo...');
     await page.evaluate((selector) => {
         const button = document.querySelector(selector);
         if (button) {
             button.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
         }
-    }, selector);
+    }, selectorExpand);
 
-    console.log("Clique simulado");
+    // Aguarde o carregamento dos campeonatos
+    await page.waitForSelector(seletores.conteCampeonato, { timeout: 10000 });
+    console.log('Seletor de campeonatos encontrado');
 
-    const visuDate = '.Box.Flex.cBIkhT'; // Seletor do elemento de dados
-    await page.waitForSelector(visuDate, { timeout: 7000 });
+    const campeonatos = await page.evaluate((seletores) => {
+        const campeonatosData = [];
+        const campeonatosElems = document.querySelectorAll(seletores.conteCampeonato);
 
-    // Função para capturar dados com base no seletor
-    const capturarDados = async (seletor) => {
-        return await page.evaluate((seletor) => {
-            const data = [];
-            document.querySelectorAll(seletor).forEach(item => {
-                data.push({
-                    text: item.innerText
+        campeonatosElems.forEach(campeonatoElem => {
+            const nomeCampeonato = campeonatoElem.querySelector(seletores.paisOuLiga)?.textContent.trim();
+            const imgElem = campeonatoElem.querySelector(seletores.imgPais);
+            const imgPais = imgElem ? imgElem.getAttribute('src') : 'N/A';
+            const imgAlt = imgElem ? imgElem.getAttribute('alt') : 'N/A';
+
+            const jogos = [];
+            const jogosElems = campeonatoElem.querySelectorAll(seletores.conteTemHo);
+            
+            jogosElems.forEach(jogoElem => {
+                const horario = jogoElem.querySelector(seletores.horario)?.textContent.trim();
+                const tempo = jogoElem.querySelector(seletores.tempo)?.textContent.trim();
+                
+                const timesElem = jogoElem.querySelector(seletores.conteInfoTimes);
+                const nomeH1 = timesElem.querySelector(seletores.nomeH1)?.textContent.trim();
+                const escudoH1 = timesElem.querySelector(seletores.escudoH1)?.getAttribute('src');
+                const nomeH2 = timesElem.querySelector(seletores.nomeH2)?.textContent.trim();
+                const escudoH2 = timesElem.querySelector(seletores.escudoH2)?.getAttribute('src');
+                
+                const placarElem = jogoElem.querySelector(seletores.contePlacar);
+                const placarH1 = placarElem.querySelector(seletores.placarH1)?.textContent.trim();
+                const placarH2 = placarElem.querySelector(seletores.placarH2)?.textContent.trim();
+
+                jogos.push({
+                    horario: horario || 'N/A',
+                    tempo: tempo || 'N/A',
+                    time1: {
+                        nome: nomeH1 || 'N/A',
+                        escudo: escudoH1 || 'N/A'
+                    },
+                    time2: {
+                        nome: nomeH2 || 'N/A',
+                        escudo: escudoH2 || 'N/A'
+                    },
+                    placar: {
+                        time1: placarH1 || 'N/A',
+                        time2: placarH2 || 'N/A'
+                    }
                 });
             });
-            return data;
-        }, seletor);
-    };
 
-    // Função para combinar os dados com base no seletor principal
-    const combinarDados = async (seletorBase) => {
-        const itens = await capturarDados(seletorBase);
-        const dadosCompletos = [];
-
-        for (const item of itens) {
-            const dados = {};
-
-            for (const [descricao, seletor] of Object.entries(seletores)) {
-                const dadosItem = await capturarDados(seletor);
-                dados[descricao] = dadosItem; // Assume que dadosItem é uma lista de objetos com uma propriedade 'text'
-            }
-
-            dadosCompletos.push({
-                item: item.text,
-                dados: dados
+            campeonatosData.push({
+                nome: nomeCampeonato || 'N/A',
+                imgPais: imgPais,
+                imgAlt: imgAlt,
+                jogos: jogos
             });
-        }
+        });
 
-        return dadosCompletos;
-    };
+        return campeonatosData;
+    }, seletores);
 
-    // Capture e combine os dados
-    const dados = await combinarDados(visuDate);
-    console.log(dados); 
+    console.log('Estrutura de campeonatos e jogos:', campeonatos);
 
-    // Fechar o navegador
     await browser.close();
+    return campeonatos;
 }
 
-apiRasp(url);
+// Chamada da função
+apiRasp(url).then(result => {
+    fs.writeFileSync('campeonatos.json', JSON.stringify(result, null, 2));
+    console.log('Dados salvos em campeonatos.json');
+}).catch(error => {
+    console.error('Erro na raspagem:', error);
+});
