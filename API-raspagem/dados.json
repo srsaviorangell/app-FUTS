@@ -1,0 +1,20 @@
+[
+  {
+    "campenalto": "Liga MX, Apertura",
+    "img": [
+      "https://www.sofascore.com/static/images/flags/mx.png"
+    ]
+  },
+  {
+    "campenalto": "MLS",
+    "img": [
+      "https://www.sofascore.com/static/images/flags/us.png"
+    ]
+  },
+  {
+    "campenalto": "Round Cup",
+    "img": [
+      "https://www.sofascore.com/static/images/flags/ck.png"
+    ]
+  }
+]
