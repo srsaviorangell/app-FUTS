@@ -58,23 +58,6 @@ async function apiRasp(url) {
     await page.waitForSelector(seletores.paisOuLiga , { timeout: 10000 });
     console.log('Seletor encontrado , campenalto ');
     await page.waitForSelector(seletores.separdor,{timeout: 20000})
-
-
-    const scrollHeight = await page.evaluate(() => {
-        return document.body.scrollHeight;
-    });
-      
-    const viewportHeight = await page.evaluate(() => {
-        return window.innerHeight;
-    });
-      
-    const scrollStep = 500; // ajuste esse valor para controlar a velocidade do scroll
-      
-    for (let i = 0; i < scrollHeight; i += scrollStep) {
-        await page.evaluate((scrollHeight) => {
-          window.scrollTo(0, scrollHeight);
-        }, i);
-        await new Promise(resolve => setTimeout(resolve, 1000));
       
         const dados = await page.evaluate(() => {
         const campeonatos = [];
@@ -154,7 +137,7 @@ async function apiRasp(url) {
         return campeonatos;
         });
         
-    };
+    
       
     console.log(JSON.stringify(dados, null, 2));
     fs.writeFileSync('dados_sofascore.json', JSON.stringify(dados, null, 2));
