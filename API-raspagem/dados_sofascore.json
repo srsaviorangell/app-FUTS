@@ -1,0 +1,223 @@
+[
+  {
+    "indice": 1,
+    "nome": "Liga Profesional",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Liga Profesional",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/7629/image/small",
+        "timeHome": "Huracán",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/42338/image/small",
+        "timeAway": "Sarmiento",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "21:00",
+        "tempo": "27'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Brasileirão Série B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/br.png",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/22032/image/small",
+        "timeHome": "CRB",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/1997/image/small",
+        "timeAway": "Paysandu",
+        "placarHome": "3",
+        "placarAway": "1",
+        "horario": "20:00",
+        "tempo": "61'",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Primera División, Clausura",
+    "imgPais": "https://www.sofascore.com/static/images/flags/py.png",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/39722/image/small",
+        "timeHome": "Trinidense",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/5997/image/small",
+        "timeAway": "Olimpia",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "21:00",
+        "tempo": "26'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "LigaPro Serie A, Segunda Etapa",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ec.png",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/394127/image/small",
+        "timeHome": "Libertad",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/377757/image/small",
+        "timeAway": "Cumbayá FC",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "21:00",
+        "tempo": "26'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "USL, League One",
+    "imgPais": "https://www.sofascore.com/static/images/flags/us.png",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/197072/image/small",
+        "timeHome": "Charlotte Independence",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/312632/image/small",
+        "timeAway": "Forward Madison FC",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "20:30",
+        "tempo": "45+'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "NWSL",
+    "imgPais": "https://www.sofascore.com/static/images/flags/us.png",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/151006/image/small",
+        "timeHome": "Houston",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/34714/image/small",
+        "timeAway": "Chicago",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "21:00",
+        "tempo": "18'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Copa Libertadores Femenina, Group C",
+    "imgPais": "https://api.sofascore.app/api/v1/unique-tournament/10602/image",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/304307/image/small",
+        "timeHome": "Peñarol",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/268093/image/small",
+        "timeAway": "Ind. Santa Fé",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "21:00",
+        "tempo": "26'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Copa Libertadores Femenina, Group D",
+    "imgPais": "https://api.sofascore.app/api/v1/unique-tournament/10602/image",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/370962/image/small",
+        "timeHome": "Deportivo Cali",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/326579/image/small",
+        "timeAway": "Club Guaraní",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "21:00",
+        "tempo": "26'",
+        "id": "9.1"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "FFAS Senior League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/as.png",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/491997/image/small",
+        "timeHome": "Green Bay Faga'alu",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/492002/image/small",
+        "timeAway": "Pago Youth",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "21:10",
+        "tempo": "Live",
+        "id": "10.1"
+      },
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/491994/image/small",
+        "timeHome": "Royal Puma",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/491995/image/small",
+        "timeAway": "Black Roses",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "21:10",
+        "tempo": "Live",
+        "id": "10.2"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Primera B Nacional",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/273657/image/small",
+        "timeHome": "Racing de Córdoba",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/3214/image/small",
+        "timeAway": "Chacarita Jrs.",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "20:10",
+        "tempo": "53'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Torneo Federal A, Promotion Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://api.sofascore.app/api/v1/team/314862/image/small",
+        "timeHome": "Atenas Rio Cuarto",
+        "escudoH2": "https://api.sofascore.app/api/v1/team/273210/image/small",
+        "timeAway": "Juventud Unida Universitario",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "20:30",
+        "tempo": "HT",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Torneo Regional Federal Amateur",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "jogos": []
+  }
+]
