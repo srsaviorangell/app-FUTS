@@ -1,0 +1,20 @@
+[
+  {
+    "indice": 2,
+    "nome": "India Championship Women",
+    "imgPais": "https://www.sofascore.com/static/images/flags/in.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/480325/image/small",
+        "timeHome": "Punjab Women",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/402710/image/small",
+        "timeAway": "West Bengal",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "00:30",
+        "tempo": "42'",
+        "id": "2.1"
+      }
+    ]
+  }
+]
