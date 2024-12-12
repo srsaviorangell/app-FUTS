@@ -178,23 +178,46 @@ async function apiRasp(url) {
 }
 
 // Chamada da função
-apiRasp(url);
+
 async function leitura (){
 const caminhoArquivo = './dados_sofascore.json';
-function leDados(caminhoArquivo) {
-    const dadosLido =  fs.readFileSync(caminhoArquivo, 'utf8');
+ function leDados(caminhoArquivo) {
+     const dadosLido =  fs.readFileSync(caminhoArquivo, 'utf8');
     return JSON.parse(dadosLido);
- }
+  }
 
-// const dados = leDados(caminhoArquivo);
+//const dados = leDados(caminhoArquivo);
 // console.log(dados);
-// fs.writeFileSync('dadosLeitura5.json', JSON.stringify(dados, null, 2));
+//fs.writeFileSync('dadosLeitura5.json', JSON.stringify(dados, null, 2));
 const organizarDadosCampeonalto = await leDados(caminhoArquivo)
-const dadosMapeados = new Set(organizarDadosCampeonalto.map(item => item.jogos && item.jogos.length > 0 ?  JSON.stringify(item): null ).filter(item => item !== null));
+const dadosMapeadoNome = new Set();
+
+// Filtragem inicial para itens válidos e duplicatas no array 'jogos'
+const dadosMapeados = new Set(
+  organizarDadosCampeonalto
+    .map(item => {
+      // Verifica se o item tem 'jogos' e pelo menos um jogo
+      if (!item.jogos || item.jogos.length === 0) {
+        return null; // Ignorar itens inválidos
+      }
+      
+      // Verifica se o nome do campeonato já foi processado
+      if (dadosMapeadoNome.has(item.nome)) {
+        return null; // Ignorar duplicatas pelo nome
+      }
+
+      // Adiciona o nome do campeonato ao conjunto para controle
+      dadosMapeadoNome.add(item.nome);
+
+      // Serializa o item para o conjunto principal
+      return JSON.stringify(item);
+    })
+    .filter(item => item !== null) // Remove itens nulos
+);
+
 const dadosSimplificados = [...dadosMapeados].map(item =>JSON.parse(item));
 
-console.log(dadosSimplificados);
-
+console.log(dadosSimplificados.length);
 // Escreve os dados processados em um novo arquivo
 fs.writeFileSync('dadosMap1.JSON', JSON.stringify(dadosSimplificados, null, 2));
 }
@@ -229,5 +252,6 @@ async function main(){
     await apiRasp(url); // Aguarda a conclusão da raspagem
     console.log("Raspagem concluída! Iniciando leitura...");
     await leitura(); // Somente agora realiza a leitura
+    console.log("Leitura concluída!");
 };
 main();

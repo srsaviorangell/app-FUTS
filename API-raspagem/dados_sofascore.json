@@ -1,49 +1,268 @@
 [
   {
     "indice": 1,
-    "nome": "India Championship Women",
-    "imgPais": "https://www.sofascore.com/static/images/flags/in.png",
+    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
     "jogos": []
   },
   {
     "indice": 2,
-    "nome": "India Championship Women",
-    "imgPais": "https://www.sofascore.com/static/images/flags/in.png",
+    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/480325/image/small",
-        "timeHome": "Punjab Women",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/402710/image/small",
-        "timeAway": "West Bengal",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/514740/image/small",
+        "timeHome": "Argentino de Bell Ville",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/273658/image/small",
+        "timeAway": "Sarmiento (L)",
         "placarHome": "0",
-        "placarAway": "2",
-        "horario": "00:30",
-        "tempo": "42'",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "90+'",
         "id": "2.1"
       }
     ]
   },
   {
+    "indice": 3,
+    "nome": "Primera División, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6572/image/small",
+        "timeHome": "Alajuelense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7045/image/small",
+        "timeAway": "Herediano",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "11/12/24",
+        "tempo": "HT",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Primera Division, Clausura, Women, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/378313/image/small",
+        "timeHome": "Sporting FC",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/510321/image/small",
+        "timeAway": "Puerto Viejo FC",
+        "placarHome": "1",
+        "placarAway": "3",
+        "horario": "11/12/24",
+        "tempo": "51'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Primera División, Apertura Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/sv.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/24386/image/small",
+        "timeHome": "FAS",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/24382/image/small",
+        "timeAway": "Isidro",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "11/12/24",
+        "tempo": "56'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Liga Premier Serie A, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/36522/image/small",
+        "timeHome": "Alacranes",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/406941/image/small",
+        "timeAway": "Aguacateros de Peribán",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "HT",
+        "id": "6.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/201623/image/small",
+        "timeHome": "Cimarrones",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/281689/image/small",
+        "timeAway": "Irapuato",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "52'",
+        "id": "6.2"
+      }
+    ]
+  },
+  {
     "indice": 1,
-    "nome": "India Championship Women",
-    "imgPais": "https://www.sofascore.com/static/images/flags/in.png",
+    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
     "jogos": []
   },
   {
     "indice": 2,
-    "nome": "India Championship Women",
-    "imgPais": "https://www.sofascore.com/static/images/flags/in.png",
+    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/480325/image/small",
-        "timeHome": "Punjab Women",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/402710/image/small",
-        "timeAway": "West Bengal",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/514740/image/small",
+        "timeHome": "Argentino de Bell Ville",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/273658/image/small",
+        "timeAway": "Sarmiento (L)",
         "placarHome": "0",
-        "placarAway": "2",
-        "horario": "00:30",
-        "tempo": "42'",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "90+'",
         "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Primera División, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6572/image/small",
+        "timeHome": "Alajuelense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7045/image/small",
+        "timeAway": "Herediano",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "11/12/24",
+        "tempo": "HT",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Primera Division, Clausura, Women, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/378313/image/small",
+        "timeHome": "Sporting FC",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/510321/image/small",
+        "timeAway": "Puerto Viejo FC",
+        "placarHome": "1",
+        "placarAway": "3",
+        "horario": "11/12/24",
+        "tempo": "51'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Primera División, Apertura Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/sv.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/24386/image/small",
+        "timeHome": "FAS",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/24382/image/small",
+        "timeAway": "Isidro",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "11/12/24",
+        "tempo": "56'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Liga Premier Serie A, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/36522/image/small",
+        "timeHome": "Alacranes",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/406941/image/small",
+        "timeAway": "Aguacateros de Peribán",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "HT",
+        "id": "6.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/201623/image/small",
+        "timeHome": "Cimarrones",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/281689/image/small",
+        "timeAway": "Irapuato",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "52'",
+        "id": "6.2"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "Primera Division, Clausura, Women, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Primera División, Apertura Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/sv.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/24386/image/small",
+        "timeHome": "FAS",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/24382/image/small",
+        "timeAway": "Isidro",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "11/12/24",
+        "tempo": "56'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Liga Premier Serie A, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/36522/image/small",
+        "timeHome": "Alacranes",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/406941/image/small",
+        "timeAway": "Aguacateros de Peribán",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "HT",
+        "id": "3.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/201623/image/small",
+        "timeHome": "Cimarrones",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/281689/image/small",
+        "timeAway": "Irapuato",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "11/12/24",
+        "tempo": "52'",
+        "id": "3.2"
       }
     ]
   }
