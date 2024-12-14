@@ -1,269 +1,5605 @@
 [
   {
     "indice": 1,
-    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
-    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "nome": "Premier League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
     "jogos": []
   },
   {
     "indice": 2,
-    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
-    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "nome": "Premier League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/514740/image/small",
-        "timeHome": "Argentino de Bell Ville",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/273658/image/small",
-        "timeAway": "Sarmiento (L)",
-        "placarHome": "0",
-        "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "90+'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/14/image/small",
+        "timeHome": "Forest",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/40/image/small",
+        "timeAway": "Aston Villa",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "84'",
         "id": "2.1"
       }
     ]
   },
   {
     "indice": 3,
-    "nome": "Primera División, Apertura, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "nome": "LaLiga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/6572/image/small",
-        "timeHome": "Alajuelense",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/7045/image/small",
-        "timeAway": "Herediano",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2833/image/small",
+        "timeHome": "Sevilla",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2821/image/small",
+        "timeAway": "Celta",
         "placarHome": "1",
-        "placarAway": "1",
-        "horario": "11/12/24",
-        "tempo": "HT",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "82'",
         "id": "3.1"
       }
     ]
   },
   {
     "indice": 4,
-    "nome": "Primera Division, Clausura, Women, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "nome": "FIFA Intercontinental Cup",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/23674/image",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/378313/image/small",
-        "timeHome": "Sporting FC",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/510321/image/small",
-        "timeAway": "Puerto Viejo FC",
-        "placarHome": "1",
-        "placarAway": "3",
-        "horario": "11/12/24",
-        "tempo": "51'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1936/image/small",
+        "timeHome": "Pachuca",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6910/image/small",
+        "timeAway": "Al Ahly",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "ET-95'",
         "id": "4.1"
       }
     ]
   },
   {
     "indice": 5,
-    "nome": "Primera División, Apertura Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/sv.png",
+    "nome": "Bundesliga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/de.png",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/24386/image/small",
-        "timeHome": "FAS",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/24382/image/small",
-        "timeAway": "Isidro",
-        "placarHome": "1",
-        "placarAway": "1",
-        "horario": "11/12/24",
-        "tempo": "56'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2526/image/small",
+        "timeHome": "St. Pauli",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2534/image/small",
+        "timeAway": "Bremen",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "79'",
         "id": "5.1"
       }
     ]
   },
   {
     "indice": 6,
-    "nome": "Liga Premier Serie A, Apertura, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "nome": "Ligue 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/36522/image/small",
-        "timeHome": "Alacranes",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/406941/image/small",
-        "timeAway": "Aguacateros de Peribán",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1646/image/small",
+        "timeHome": "Auxerre",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1648/image/small",
+        "timeAway": "Lens",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Liga Portugal Betclic",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/3013/image/small",
+        "timeHome": "Nacional",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/3014/image/small",
+        "timeAway": "Moreirense",
         "placarHome": "0",
         "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "HT",
-        "id": "6.1"
+        "horario": "15:00",
+        "tempo": "53'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Eredivisie",
+    "imgPais": "https://www.sofascore.com/static/images/flags/nl.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2964/image/small",
+        "timeHome": "Heerenveen",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2952/image/small",
+        "timeAway": "PSV",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:45",
+        "tempo": "69'",
+        "id": "8.1"
       },
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/201623/image/small",
-        "timeHome": "Cimarrones",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/281689/image/small",
-        "timeAway": "Irapuato",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2957/image/small",
+        "timeHome": "Fortuna",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2956/image/small",
+        "timeAway": "Waalwijk",
         "placarHome": "0",
         "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "52'",
-        "id": "6.2"
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "8.2"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Super League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5062/image/small",
+        "timeHome": "Atromitos",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/3241/image/small",
+        "timeAway": "OFI",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "80'",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/267459/image/small",
+        "timeHome": "Volos",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6342/image/small",
+        "timeAway": "Asteras",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "43'",
+        "id": "9.2"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "CAF Champions League, Group A",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/42204/image/small",
+        "timeHome": "MC Alger",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/69322/image/small",
+        "timeAway": "Al-Hilal",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "CAF Champions League, Group D",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59628/image/small",
+        "timeHome": "Espérance",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/175002/image/small",
+        "timeAway": "Pyramids",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "LaLiga 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/47321/image/small",
+        "timeHome": "Eldense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2846/image/small",
+        "timeAway": "Elche",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "12.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2839/image/small",
+        "timeHome": "Eibar",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2815/image/small",
+        "timeAway": "Real Zaragoza",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "12.2"
       }
     ]
   },
   {
     "indice": 1,
-    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
-    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "nome": "Premier League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
     "jogos": []
   },
   {
     "indice": 2,
-    "nome": "Liga Bellvillense de Fútbol - Playoff, Divisional A",
-    "imgPais": "https://www.sofascore.com/static/images/flags/ar.png?v=2",
+    "nome": "Premier League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/514740/image/small",
-        "timeHome": "Argentino de Bell Ville",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/273658/image/small",
-        "timeAway": "Sarmiento (L)",
-        "placarHome": "0",
-        "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "90+'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/14/image/small",
+        "timeHome": "Forest",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/40/image/small",
+        "timeAway": "Aston Villa",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "84'",
         "id": "2.1"
       }
     ]
   },
   {
     "indice": 3,
-    "nome": "Primera División, Apertura, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "nome": "LaLiga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/6572/image/small",
-        "timeHome": "Alajuelense",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/7045/image/small",
-        "timeAway": "Herediano",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2833/image/small",
+        "timeHome": "Sevilla",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2821/image/small",
+        "timeAway": "Celta",
         "placarHome": "1",
-        "placarAway": "1",
-        "horario": "11/12/24",
-        "tempo": "HT",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "82'",
         "id": "3.1"
       }
     ]
   },
   {
     "indice": 4,
-    "nome": "Primera Division, Clausura, Women, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "nome": "FIFA Intercontinental Cup",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/23674/image",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/378313/image/small",
-        "timeHome": "Sporting FC",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/510321/image/small",
-        "timeAway": "Puerto Viejo FC",
-        "placarHome": "1",
-        "placarAway": "3",
-        "horario": "11/12/24",
-        "tempo": "51'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1936/image/small",
+        "timeHome": "Pachuca",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6910/image/small",
+        "timeAway": "Al Ahly",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "ET-95'",
         "id": "4.1"
       }
     ]
   },
   {
     "indice": 5,
-    "nome": "Primera División, Apertura Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/sv.png",
+    "nome": "Bundesliga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/de.png",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/24386/image/small",
-        "timeHome": "FAS",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/24382/image/small",
-        "timeAway": "Isidro",
-        "placarHome": "1",
-        "placarAway": "1",
-        "horario": "11/12/24",
-        "tempo": "56'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2526/image/small",
+        "timeHome": "St. Pauli",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2534/image/small",
+        "timeAway": "Bremen",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "79'",
         "id": "5.1"
       }
     ]
   },
   {
     "indice": 6,
-    "nome": "Liga Premier Serie A, Apertura, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "nome": "Ligue 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/36522/image/small",
-        "timeHome": "Alacranes",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/406941/image/small",
-        "timeAway": "Aguacateros de Peribán",
-        "placarHome": "0",
-        "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "HT",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1646/image/small",
+        "timeHome": "Auxerre",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1648/image/small",
+        "timeAway": "Lens",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "54'",
         "id": "6.1"
-      },
-      {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/201623/image/small",
-        "timeHome": "Cimarrones",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/281689/image/small",
-        "timeAway": "Irapuato",
-        "placarHome": "0",
-        "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "52'",
-        "id": "6.2"
       }
     ]
   },
   {
+    "indice": 7,
+    "nome": "Liga Portugal Betclic",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/3013/image/small",
+        "timeHome": "Nacional",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/3014/image/small",
+        "timeAway": "Moreirense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "53'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Eredivisie",
+    "imgPais": "https://www.sofascore.com/static/images/flags/nl.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2964/image/small",
+        "timeHome": "Heerenveen",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2952/image/small",
+        "timeAway": "PSV",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:45",
+        "tempo": "69'",
+        "id": "8.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2957/image/small",
+        "timeHome": "Fortuna",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2956/image/small",
+        "timeAway": "Waalwijk",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "8.2"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Super League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5062/image/small",
+        "timeHome": "Atromitos",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/3241/image/small",
+        "timeAway": "OFI",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "80'",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/267459/image/small",
+        "timeHome": "Volos",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6342/image/small",
+        "timeAway": "Asteras",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "43'",
+        "id": "9.2"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "CAF Champions League, Group A",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/42204/image/small",
+        "timeHome": "MC Alger",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/69322/image/small",
+        "timeAway": "Al-Hilal",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "CAF Champions League, Group D",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59628/image/small",
+        "timeHome": "Espérance",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/175002/image/small",
+        "timeAway": "Pyramids",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "LaLiga 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/47321/image/small",
+        "timeHome": "Eldense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2846/image/small",
+        "timeAway": "Elche",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "12.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2839/image/small",
+        "timeHome": "Eibar",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2815/image/small",
+        "timeAway": "Real Zaragoza",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "12.2"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Ligue 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/210894/image/small",
+        "timeHome": "Annecy",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1651/image/small",
+        "timeAway": "Metz",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "1. Liga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cz.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2204/image/small",
+        "timeHome": "Baník",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/4871/image/small",
+        "timeAway": "Slovácko",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Superliga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ro.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7734/image/small",
+        "timeHome": "U. Cluj",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/25856/image/small",
+        "timeAway": "Petrolul Ploieşti",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "15.1"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Premiership",
+    "imgPais": "https://www.sofascore.com/static/images/flags/za.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7671/image/small",
+        "timeHome": "Supersport United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/90844/image/small",
+        "timeAway": "Magesi",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "42'",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Women's Super League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/266376/image/small",
+        "timeHome": "Brighton",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/273547/image/small",
+        "timeAway": "Tottenham",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "Challenger Pro League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": []
+  },
+  {
     "indice": 1,
-    "nome": "Primera Division, Clausura, Women, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/cr.png",
+    "nome": "FIFA Intercontinental Cup",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/23674/image",
     "jogos": []
   },
   {
     "indice": 2,
-    "nome": "Primera División, Apertura Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/sv.png",
+    "nome": "Bundesliga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/de.png",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/24386/image/small",
-        "timeHome": "FAS",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/24382/image/small",
-        "timeAway": "Isidro",
-        "placarHome": "1",
-        "placarAway": "1",
-        "horario": "11/12/24",
-        "tempo": "56'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2526/image/small",
+        "timeHome": "St. Pauli",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2534/image/small",
+        "timeAway": "Bremen",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "79'",
         "id": "2.1"
       }
     ]
   },
   {
     "indice": 3,
-    "nome": "Liga Premier Serie A, Apertura, Playoffs",
-    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "nome": "Ligue 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
     "jogos": [
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/36522/image/small",
-        "timeHome": "Alacranes",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/406941/image/small",
-        "timeAway": "Aguacateros de Peribán",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1646/image/small",
+        "timeHome": "Auxerre",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1648/image/small",
+        "timeAway": "Lens",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Liga Portugal Betclic",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/3013/image/small",
+        "timeHome": "Nacional",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/3014/image/small",
+        "timeAway": "Moreirense",
         "placarHome": "0",
         "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "HT",
+        "horario": "15:00",
+        "tempo": "53'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Eredivisie",
+    "imgPais": "https://www.sofascore.com/static/images/flags/nl.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2964/image/small",
+        "timeHome": "Heerenveen",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2952/image/small",
+        "timeAway": "PSV",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:45",
+        "tempo": "69'",
+        "id": "5.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2957/image/small",
+        "timeHome": "Fortuna",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2956/image/small",
+        "timeAway": "Waalwijk",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "5.2"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Super League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5062/image/small",
+        "timeHome": "Atromitos",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/3241/image/small",
+        "timeAway": "OFI",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "80'",
+        "id": "6.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/267459/image/small",
+        "timeHome": "Volos",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6342/image/small",
+        "timeAway": "Asteras",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "43'",
+        "id": "6.2"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "CAF Champions League, Group A",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/42204/image/small",
+        "timeHome": "MC Alger",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/69322/image/small",
+        "timeAway": "Al-Hilal",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "CAF Champions League, Group D",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59628/image/small",
+        "timeHome": "Espérance",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/175002/image/small",
+        "timeAway": "Pyramids",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "LaLiga 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/47321/image/small",
+        "timeHome": "Eldense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2846/image/small",
+        "timeAway": "Elche",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2839/image/small",
+        "timeHome": "Eibar",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2815/image/small",
+        "timeAway": "Real Zaragoza",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "9.2"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Ligue 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/210894/image/small",
+        "timeHome": "Annecy",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1651/image/small",
+        "timeAway": "Metz",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Premier League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5391/image/small",
+        "timeHome": "Ashdod",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/5204/image/small",
+        "timeAway": "Beitar Jerusalem",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "83'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "1. Liga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cz.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2204/image/small",
+        "timeHome": "Baník",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/4871/image/small",
+        "timeAway": "Slovácko",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Superliga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ro.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7734/image/small",
+        "timeHome": "U. Cluj",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/25856/image/small",
+        "timeAway": "Petrolul Ploieşti",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Premiership",
+    "imgPais": "https://www.sofascore.com/static/images/flags/za.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7671/image/small",
+        "timeHome": "Supersport United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/90844/image/small",
+        "timeAway": "Magesi",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "42'",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Women's Super League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/266376/image/small",
+        "timeHome": "Brighton",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/273547/image/small",
+        "timeAway": "Tottenham",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "15.1"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Challenger Pro League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/421120/image/small",
+        "timeHome": "RSCA Futures U23",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/328498/image/small",
+        "timeAway": "RFB",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Primera Division Femenina",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/77897/image/small",
+        "timeHome": "R. Sociedad",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/202971/image/small",
+        "timeAway": "Tenerife",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "83'",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "NB I",
+    "imgPais": "https://www.sofascore.com/static/images/flags/hu.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/25596/image/small",
+        "timeHome": "Puskás",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6059/image/small",
+        "timeAway": "Paksi",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "44'",
+        "id": "18.1"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/94/image/small",
+        "timeHome": "Forest Green",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/124/image/small",
+        "timeAway": "Boston",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "86'",
+        "id": "19.1"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "nome": "Primera Federacion, Group 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/77413/image/small",
+        "timeHome": "Sanluqueño",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/24322/image/small",
+        "timeAway": "Alcorcón",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "45+'",
+        "id": "20.1"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "nome": "Segunda Federacion, Group III",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/135672/image/small",
+        "timeHome": "Europa",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/115057/image/small",
+        "timeAway": "Elche Ilicitano",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "21.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/24325/image/small",
+        "timeHome": "Atl. Baleares",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/34997/image/small",
+        "timeAway": "Mallorca B",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "21.2"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "nome": "Segunda Federación Femenina, South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": []
+  },
+  {
+    "indice": 1,
+    "nome": "CAF Champions League, Group A",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "CAF Champions League, Group D",
+    "imgPais": "https://img.sofascore.com/api/v1/unique-tournament/1054/image",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59628/image/small",
+        "timeHome": "Espérance",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/175002/image/small",
+        "timeAway": "Pyramids",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "LaLiga 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/47321/image/small",
+        "timeHome": "Eldense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2846/image/small",
+        "timeAway": "Elche",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "85'",
         "id": "3.1"
       },
       {
-        "escudoH1": "https://img.sofascore.com/api/v1/team/201623/image/small",
-        "timeHome": "Cimarrones",
-        "escudoH2": "https://img.sofascore.com/api/v1/team/281689/image/small",
-        "timeAway": "Irapuato",
-        "placarHome": "0",
-        "placarAway": "0",
-        "horario": "11/12/24",
-        "tempo": "52'",
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2839/image/small",
+        "timeHome": "Eibar",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2815/image/small",
+        "timeAway": "Real Zaragoza",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
         "id": "3.2"
       }
     ]
+  },
+  {
+    "indice": 4,
+    "nome": "Ligue 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/210894/image/small",
+        "timeHome": "Annecy",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1651/image/small",
+        "timeAway": "Metz",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Premier League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5391/image/small",
+        "timeHome": "Ashdod",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/5204/image/small",
+        "timeAway": "Beitar Jerusalem",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "83'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "1. Liga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cz.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2204/image/small",
+        "timeHome": "Baník",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/4871/image/small",
+        "timeAway": "Slovácko",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Superliga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ro.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7734/image/small",
+        "timeHome": "U. Cluj",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/25856/image/small",
+        "timeAway": "Petrolul Ploieşti",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Premiership",
+    "imgPais": "https://www.sofascore.com/static/images/flags/za.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7671/image/small",
+        "timeHome": "Supersport United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/90844/image/small",
+        "timeAway": "Magesi",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "42'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Women's Super League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/266376/image/small",
+        "timeHome": "Brighton",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/273547/image/small",
+        "timeAway": "Tottenham",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "9.1"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Challenger Pro League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/421120/image/small",
+        "timeHome": "RSCA Futures U23",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/328498/image/small",
+        "timeAway": "RFB",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Primera Division Femenina",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/77897/image/small",
+        "timeHome": "R. Sociedad",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/202971/image/small",
+        "timeAway": "Tenerife",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "83'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "NB I",
+    "imgPais": "https://www.sofascore.com/static/images/flags/hu.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/25596/image/small",
+        "timeHome": "Puskás",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6059/image/small",
+        "timeAway": "Paksi",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "44'",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/94/image/small",
+        "timeHome": "Forest Green",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/124/image/small",
+        "timeAway": "Boston",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "86'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Primera Federacion, Group 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/77413/image/small",
+        "timeHome": "Sanluqueño",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/24322/image/small",
+        "timeAway": "Alcorcón",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "45+'",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Segunda Federacion, Group III",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/135672/image/small",
+        "timeHome": "Europa",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/115057/image/small",
+        "timeAway": "Elche Ilicitano",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "15.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/24325/image/small",
+        "timeHome": "Atl. Baleares",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/34997/image/small",
+        "timeAway": "Mallorca B",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "15.2"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Segunda Federación Femenina, South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/254442/image/small",
+        "timeHome": "CD Femarguin",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/280697/image/small",
+        "timeAway": "Madrid B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "90+'",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Tercera Federación Femenina",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/464295/image/small",
+        "timeHome": "Athletic Bilbao C",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/468471/image/small",
+        "timeAway": "Burgos CF Femenino",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:45",
+        "tempo": "68'",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "Serie C, Girone B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/it.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/393551/image/small",
+        "timeHome": "Campobasso",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7935/image/small",
+        "timeAway": "Pescara",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:45",
+        "tempo": "27'",
+        "id": "18.1"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "nome": "National 2, Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/46212/image/small",
+        "timeHome": "Genêts Anglet",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1744/image/small",
+        "timeAway": "AS Saint Priest",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "52'",
+        "id": "19.1"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "nome": "National 2, Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35059/image/small",
+        "timeHome": "Locminé",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/47508/image/small",
+        "timeAway": "Stade Poitevin",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "20.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/211608/image/small",
+        "timeHome": "Stade Briochin",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/32494/image/small",
+        "timeAway": "Ol. Saumur",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "73'",
+        "id": "20.2"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "nome": "National 2, Groupe C",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/304072/image/small",
+        "timeHome": "AS Villers Houlgate",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39401/image/small",
+        "timeAway": "Aubervilliers",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "80'",
+        "id": "21.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/467718/image/small",
+        "timeHome": "Balagne",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/184695/image/small",
+        "timeAway": "FC 93",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "21.2"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "Premier League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "1. Liga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/cz.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2204/image/small",
+        "timeHome": "Baník",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/4871/image/small",
+        "timeAway": "Slovácko",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Superliga",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ro.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7734/image/small",
+        "timeHome": "U. Cluj",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/25856/image/small",
+        "timeAway": "Petrolul Ploieşti",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "54'",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Premiership",
+    "imgPais": "https://www.sofascore.com/static/images/flags/za.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7671/image/small",
+        "timeHome": "Supersport United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/90844/image/small",
+        "timeAway": "Magesi",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "42'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Women's Super League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/266376/image/small",
+        "timeHome": "Brighton",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/273547/image/small",
+        "timeAway": "Tottenham",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Challenger Pro League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/421120/image/small",
+        "timeHome": "RSCA Futures U23",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/328498/image/small",
+        "timeAway": "RFB",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Primera Division Femenina",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/77897/image/small",
+        "timeHome": "R. Sociedad",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/202971/image/small",
+        "timeAway": "Tenerife",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "83'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "NB I",
+    "imgPais": "https://www.sofascore.com/static/images/flags/hu.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/25596/image/small",
+        "timeHome": "Puskás",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/6059/image/small",
+        "timeAway": "Paksi",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "44'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/94/image/small",
+        "timeHome": "Forest Green",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/124/image/small",
+        "timeAway": "Boston",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "86'",
+        "id": "9.1"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Primera Federacion, Group 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/77413/image/small",
+        "timeHome": "Sanluqueño",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/24322/image/small",
+        "timeAway": "Alcorcón",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "45+'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Segunda Federacion, Group III",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/135672/image/small",
+        "timeHome": "Europa",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/115057/image/small",
+        "timeAway": "Elche Ilicitano",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "11.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/24325/image/small",
+        "timeHome": "Atl. Baleares",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/34997/image/small",
+        "timeAway": "Mallorca B",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "11.2"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Segunda Federación Femenina, South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/254442/image/small",
+        "timeHome": "CD Femarguin",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/280697/image/small",
+        "timeAway": "Madrid B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "90+'",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Tercera Federación Femenina",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/464295/image/small",
+        "timeHome": "Athletic Bilbao C",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/468471/image/small",
+        "timeAway": "Burgos CF Femenino",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:45",
+        "tempo": "68'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Serie C, Girone B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/it.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/393551/image/small",
+        "timeHome": "Campobasso",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7935/image/small",
+        "timeAway": "Pescara",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:45",
+        "tempo": "27'",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "National 2, Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/46212/image/small",
+        "timeHome": "Genêts Anglet",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1744/image/small",
+        "timeAway": "AS Saint Priest",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "52'",
+        "id": "15.1"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "National 2, Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35059/image/small",
+        "timeHome": "Locminé",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/47508/image/small",
+        "timeAway": "Stade Poitevin",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "16.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/211608/image/small",
+        "timeHome": "Stade Briochin",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/32494/image/small",
+        "timeAway": "Ol. Saumur",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "73'",
+        "id": "16.2"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "National 2, Groupe C",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/304072/image/small",
+        "timeHome": "AS Villers Houlgate",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39401/image/small",
+        "timeAway": "Aubervilliers",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "80'",
+        "id": "17.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/467718/image/small",
+        "timeHome": "Balagne",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/184695/image/small",
+        "timeAway": "FC 93",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "17.2"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "Kategoria Superiore",
+    "imgPais": "https://www.sofascore.com/static/images/flags/al.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5217/image/small",
+        "timeHome": "Dinamo City",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/5195/image/small",
+        "timeAway": "Tirana",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "18.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5222/image/small",
+        "timeHome": "Partizani",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/403091/image/small",
+        "timeAway": "AF Elbasani",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "56'",
+        "id": "18.2"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "nome": "Superleague, Women",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/37201/image/small",
+        "timeHome": "Standard",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/178246/image/small",
+        "timeAway": "OH Leuven",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "19.1"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "nome": "Nationale 1 - Flanders",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/37043/image/small",
+        "timeHome": "Hoogstraten",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/204648/image/small",
+        "timeAway": "Merelbeke",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "20.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/391532/image/small",
+        "timeHome": "Sporting Hasselt",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76451/image/small",
+        "timeAway": "Jong Gent U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "20.2"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "nome": "Nationale 1 - Wallonia",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7736/image/small",
+        "timeHome": "Tournai",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7977/image/small",
+        "timeAway": "Namur",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "40'",
+        "id": "21.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7735/image/small",
+        "timeHome": "Charleroi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2931/image/small",
+        "timeAway": "Virton",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "21.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/549294/image/small",
+        "timeHome": "Mons",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76463/image/small",
+        "timeAway": "Zébra Élites U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "21.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2909/image/small",
+        "timeHome": "Tubize-Braine",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/549296/image/small",
+        "timeAway": "USG U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "21.4"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/421123/image/small",
+        "timeHome": "SL16 FC U23",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/385759/image/small",
+        "timeAway": "Rochefort",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "13'",
+        "id": "21.5"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "NB I",
+    "imgPais": "https://www.sofascore.com/static/images/flags/hu.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/en.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/94/image/small",
+        "timeHome": "Forest Green",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/124/image/small",
+        "timeAway": "Boston",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "86'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Primera Federacion, Group 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/77413/image/small",
+        "timeHome": "Sanluqueño",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/24322/image/small",
+        "timeAway": "Alcorcón",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "45+'",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Segunda Federacion, Group III",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/135672/image/small",
+        "timeHome": "Europa",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/115057/image/small",
+        "timeAway": "Elche Ilicitano",
+        "placarHome": "2",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "4.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/24325/image/small",
+        "timeHome": "Atl. Baleares",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/34997/image/small",
+        "timeAway": "Mallorca B",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "4.2"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Segunda Federación Femenina, South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/254442/image/small",
+        "timeHome": "CD Femarguin",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/280697/image/small",
+        "timeAway": "Madrid B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "90+'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Tercera Federación Femenina",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/464295/image/small",
+        "timeHome": "Athletic Bilbao C",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/468471/image/small",
+        "timeAway": "Burgos CF Femenino",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:45",
+        "tempo": "68'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Serie C, Girone B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/it.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/393551/image/small",
+        "timeHome": "Campobasso",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7935/image/small",
+        "timeAway": "Pescara",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:45",
+        "tempo": "27'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "National 2, Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/46212/image/small",
+        "timeHome": "Genêts Anglet",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1744/image/small",
+        "timeAway": "AS Saint Priest",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "52'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "National 2, Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35059/image/small",
+        "timeHome": "Locminé",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/47508/image/small",
+        "timeAway": "Stade Poitevin",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/211608/image/small",
+        "timeHome": "Stade Briochin",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/32494/image/small",
+        "timeAway": "Ol. Saumur",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "73'",
+        "id": "9.2"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "National 2, Groupe C",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/304072/image/small",
+        "timeHome": "AS Villers Houlgate",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39401/image/small",
+        "timeAway": "Aubervilliers",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "80'",
+        "id": "10.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/467718/image/small",
+        "timeHome": "Balagne",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/184695/image/small",
+        "timeAway": "FC 93",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "10.2"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Kategoria Superiore",
+    "imgPais": "https://www.sofascore.com/static/images/flags/al.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5217/image/small",
+        "timeHome": "Dinamo City",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/5195/image/small",
+        "timeAway": "Tirana",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "11.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5222/image/small",
+        "timeHome": "Partizani",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/403091/image/small",
+        "timeAway": "AF Elbasani",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "56'",
+        "id": "11.2"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Superleague, Women",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/37201/image/small",
+        "timeHome": "Standard",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/178246/image/small",
+        "timeAway": "OH Leuven",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Nationale 1 - Flanders",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/37043/image/small",
+        "timeHome": "Hoogstraten",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/204648/image/small",
+        "timeAway": "Merelbeke",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "13.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/391532/image/small",
+        "timeHome": "Sporting Hasselt",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76451/image/small",
+        "timeAway": "Jong Gent U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "13.2"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Nationale 1 - Wallonia",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7736/image/small",
+        "timeHome": "Tournai",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7977/image/small",
+        "timeAway": "Namur",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "40'",
+        "id": "14.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7735/image/small",
+        "timeHome": "Charleroi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2931/image/small",
+        "timeAway": "Virton",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "14.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/549294/image/small",
+        "timeHome": "Mons",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76463/image/small",
+        "timeAway": "Zébra Élites U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "14.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2909/image/small",
+        "timeHome": "Tubize-Braine",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/549296/image/small",
+        "timeAway": "USG U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "14.4"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/421123/image/small",
+        "timeHome": "SL16 FC U23",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/385759/image/small",
+        "timeAway": "Rochefort",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "13'",
+        "id": "14.5"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Tweede Afdeling VV A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/230280/image/small",
+        "timeHome": "Lebbeke",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/25127/image/small",
+        "timeAway": "Oudenaarde",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "15.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/530988/image/small",
+        "timeHome": "K.V.C. Westerlo B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/44031/image/small",
+        "timeAway": "Petegem",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "15.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/225163/image/small",
+        "timeHome": "Dikkelvenne",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/255817/image/small",
+        "timeAway": "KVV Zelzate",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "15.3"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Tweede Afdeling VV B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/204651/image/small",
+        "timeHome": "RC Hades",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/37241/image/small",
+        "timeAway": "Rupel Boom",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Tweede Afdeling ACFF",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35086/image/small",
+        "timeHome": "La Louvière",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/490613/image/small",
+        "timeAway": "Ganshoren",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "Serie C, Girone B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/it.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "National 2, Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/46212/image/small",
+        "timeHome": "Genêts Anglet",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1744/image/small",
+        "timeAway": "AS Saint Priest",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "52'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "National 2, Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35059/image/small",
+        "timeHome": "Locminé",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/47508/image/small",
+        "timeAway": "Stade Poitevin",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "3.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/211608/image/small",
+        "timeHome": "Stade Briochin",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/32494/image/small",
+        "timeAway": "Ol. Saumur",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "73'",
+        "id": "3.2"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "National 2, Groupe C",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/304072/image/small",
+        "timeHome": "AS Villers Houlgate",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39401/image/small",
+        "timeAway": "Aubervilliers",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "80'",
+        "id": "4.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/467718/image/small",
+        "timeHome": "Balagne",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/184695/image/small",
+        "timeAway": "FC 93",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "4.2"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Kategoria Superiore",
+    "imgPais": "https://www.sofascore.com/static/images/flags/al.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5217/image/small",
+        "timeHome": "Dinamo City",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/5195/image/small",
+        "timeAway": "Tirana",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "5.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/5222/image/small",
+        "timeHome": "Partizani",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/403091/image/small",
+        "timeAway": "AF Elbasani",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:00",
+        "tempo": "56'",
+        "id": "5.2"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Superleague, Women",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/37201/image/small",
+        "timeHome": "Standard",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/178246/image/small",
+        "timeAway": "OH Leuven",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Nationale 1 - Flanders",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/37043/image/small",
+        "timeHome": "Hoogstraten",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/204648/image/small",
+        "timeAway": "Merelbeke",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "7.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/391532/image/small",
+        "timeHome": "Sporting Hasselt",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76451/image/small",
+        "timeAway": "Jong Gent U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "7.2"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Nationale 1 - Wallonia",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7736/image/small",
+        "timeHome": "Tournai",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7977/image/small",
+        "timeAway": "Namur",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "40'",
+        "id": "8.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7735/image/small",
+        "timeHome": "Charleroi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2931/image/small",
+        "timeAway": "Virton",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "8.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/549294/image/small",
+        "timeHome": "Mons",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76463/image/small",
+        "timeAway": "Zébra Élites U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "8.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2909/image/small",
+        "timeHome": "Tubize-Braine",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/549296/image/small",
+        "timeAway": "USG U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "8.4"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/421123/image/small",
+        "timeHome": "SL16 FC U23",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/385759/image/small",
+        "timeAway": "Rochefort",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "13'",
+        "id": "8.5"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Tweede Afdeling VV A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/230280/image/small",
+        "timeHome": "Lebbeke",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/25127/image/small",
+        "timeAway": "Oudenaarde",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/530988/image/small",
+        "timeHome": "K.V.C. Westerlo B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/44031/image/small",
+        "timeAway": "Petegem",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "9.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/225163/image/small",
+        "timeHome": "Dikkelvenne",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/255817/image/small",
+        "timeAway": "KVV Zelzate",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "9.3"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Tweede Afdeling VV B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/204651/image/small",
+        "timeHome": "RC Hades",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/37241/image/small",
+        "timeAway": "Rupel Boom",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Tweede Afdeling ACFF",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35086/image/small",
+        "timeHome": "La Louvière",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/490613/image/small",
+        "timeAway": "Ganshoren",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Division Profesional, Clausura",
+    "imgPais": "https://www.sofascore.com/static/images/flags/bo.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/268083/image/small",
+        "timeHome": "Always Ready",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/327860/image/small",
+        "timeAway": "Real Santa Cruz",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "1'",
+        "id": "12.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/273544/image/small",
+        "timeHome": "Royal Pari",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/32529/image/small",
+        "timeAway": "The Strongest",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "12.2"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Potiguar, Feminino - Mata-mata",
+    "imgPais": "https://www.sofascore.com/static/images/flags/br.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/375618/image/small",
+        "timeHome": "União-RN",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/397833/image/small",
+        "timeAway": "Alecrim",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "61'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "National 3 Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6914/image/small",
+        "timeHome": "Aviron Bayonnais",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/271887/image/small",
+        "timeAway": "Alberes Argeles",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "National 3 Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59812/image/small",
+        "timeHome": "Sable Sur Sarthe",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39404/image/small",
+        "timeAway": "Chauray",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "15.1"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "National 3 Groupe E",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/32863/image/small",
+        "timeHome": "JA Drancy",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907231/image/small",
+        "timeAway": "Stade de Reims 2",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "16.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/455455/image/small",
+        "timeHome": "US Le Pays Du Valois",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907240/image/small",
+        "timeAway": "OCPAM",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "16.2"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "National 3 Groupe F",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": []
+  },
+  {
+    "indice": 1,
+    "nome": "Superleague, Women",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Nationale 1 - Flanders",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/37043/image/small",
+        "timeHome": "Hoogstraten",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/204648/image/small",
+        "timeAway": "Merelbeke",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "2.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/391532/image/small",
+        "timeHome": "Sporting Hasselt",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76451/image/small",
+        "timeAway": "Jong Gent U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "2.2"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Nationale 1 - Wallonia",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7736/image/small",
+        "timeHome": "Tournai",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7977/image/small",
+        "timeAway": "Namur",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "40'",
+        "id": "3.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7735/image/small",
+        "timeHome": "Charleroi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/2931/image/small",
+        "timeAway": "Virton",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "3.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/549294/image/small",
+        "timeHome": "Mons",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/76463/image/small",
+        "timeAway": "Zébra Élites U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "3.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/2909/image/small",
+        "timeHome": "Tubize-Braine",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/549296/image/small",
+        "timeAway": "USG U23",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "3.4"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/421123/image/small",
+        "timeHome": "SL16 FC U23",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/385759/image/small",
+        "timeAway": "Rochefort",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "13'",
+        "id": "3.5"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Tweede Afdeling VV A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/230280/image/small",
+        "timeHome": "Lebbeke",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/25127/image/small",
+        "timeAway": "Oudenaarde",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "4.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/530988/image/small",
+        "timeHome": "K.V.C. Westerlo B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/44031/image/small",
+        "timeAway": "Petegem",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "4.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/225163/image/small",
+        "timeHome": "Dikkelvenne",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/255817/image/small",
+        "timeAway": "KVV Zelzate",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "4.3"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Tweede Afdeling VV B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/204651/image/small",
+        "timeHome": "RC Hades",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/37241/image/small",
+        "timeAway": "Rupel Boom",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Tweede Afdeling ACFF",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35086/image/small",
+        "timeHome": "La Louvière",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/490613/image/small",
+        "timeAway": "Ganshoren",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Division Profesional, Clausura",
+    "imgPais": "https://www.sofascore.com/static/images/flags/bo.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/268083/image/small",
+        "timeHome": "Always Ready",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/327860/image/small",
+        "timeAway": "Real Santa Cruz",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "1'",
+        "id": "7.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/273544/image/small",
+        "timeHome": "Royal Pari",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/32529/image/small",
+        "timeAway": "The Strongest",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "7.2"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Potiguar, Feminino - Mata-mata",
+    "imgPais": "https://www.sofascore.com/static/images/flags/br.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/375618/image/small",
+        "timeHome": "União-RN",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/397833/image/small",
+        "timeAway": "Alecrim",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "61'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "National 3 Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6914/image/small",
+        "timeHome": "Aviron Bayonnais",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/271887/image/small",
+        "timeAway": "Alberes Argeles",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "9.1"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "National 3 Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59812/image/small",
+        "timeHome": "Sable Sur Sarthe",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39404/image/small",
+        "timeAway": "Chauray",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "National 3 Groupe E",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/32863/image/small",
+        "timeHome": "JA Drancy",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907231/image/small",
+        "timeAway": "Stade de Reims 2",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "11.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/455455/image/small",
+        "timeHome": "US Le Pays Du Valois",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907240/image/small",
+        "timeAway": "OCPAM",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "11.2"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "National 3 Groupe F",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/128004/image/small",
+        "timeHome": "Avoine Chinon",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/455451/image/small",
+        "timeAway": "US Cosne",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "12.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/334241/image/small",
+        "timeHome": "FC Montlouis",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/46484/image/small",
+        "timeAway": "Chauvigny",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "53'",
+        "id": "12.2"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "National 3 Groupe I",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/60778/image/small",
+        "timeHome": "Chamalieres",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/132330/image/small",
+        "timeAway": "Chassieu Décines",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Auvergne Rhône-Alpes, Regional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/407711/image/small",
+        "timeHome": "Montluçon",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1041387/image/small",
+        "timeAway": "Riomois",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Occitanie Regional 1 - Poule A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/210100/image/small",
+        "timeHome": "Frontignan AV Sac",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040784/image/small",
+        "timeAway": "Canet Roussillon II",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "15.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/375456/image/small",
+        "timeHome": "Entente Montferrier",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/455448/image/small",
+        "timeAway": "Saint Esteve Perpignan",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "15.2"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Occitanie Regional 1 - Poule B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1709/image/small",
+        "timeHome": "Balma",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040780/image/small",
+        "timeAway": "AV Fonsorbes",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gi.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/126304/image/small",
+        "timeHome": "Lincoln RI",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/255156/image/small",
+        "timeAway": "FC Bruno's Magpies",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "Tweede Afdeling VV B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Tweede Afdeling ACFF",
+    "imgPais": "https://www.sofascore.com/static/images/flags/be.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/35086/image/small",
+        "timeHome": "La Louvière",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/490613/image/small",
+        "timeAway": "Ganshoren",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Division Profesional, Clausura",
+    "imgPais": "https://www.sofascore.com/static/images/flags/bo.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/268083/image/small",
+        "timeHome": "Always Ready",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/327860/image/small",
+        "timeAway": "Real Santa Cruz",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "1'",
+        "id": "3.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/273544/image/small",
+        "timeHome": "Royal Pari",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/32529/image/small",
+        "timeAway": "The Strongest",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "12'",
+        "id": "3.2"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Potiguar, Feminino - Mata-mata",
+    "imgPais": "https://www.sofascore.com/static/images/flags/br.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/375618/image/small",
+        "timeHome": "União-RN",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/397833/image/small",
+        "timeAway": "Alecrim",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "61'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "National 3 Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6914/image/small",
+        "timeHome": "Aviron Bayonnais",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/271887/image/small",
+        "timeAway": "Alberes Argeles",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "National 3 Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59812/image/small",
+        "timeHome": "Sable Sur Sarthe",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39404/image/small",
+        "timeAway": "Chauray",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "National 3 Groupe E",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/32863/image/small",
+        "timeHome": "JA Drancy",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907231/image/small",
+        "timeAway": "Stade de Reims 2",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "7.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/455455/image/small",
+        "timeHome": "US Le Pays Du Valois",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907240/image/small",
+        "timeAway": "OCPAM",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "7.2"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "National 3 Groupe F",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/128004/image/small",
+        "timeHome": "Avoine Chinon",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/455451/image/small",
+        "timeAway": "US Cosne",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "8.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/334241/image/small",
+        "timeHome": "FC Montlouis",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/46484/image/small",
+        "timeAway": "Chauvigny",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "53'",
+        "id": "8.2"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "National 3 Groupe I",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/60778/image/small",
+        "timeHome": "Chamalieres",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/132330/image/small",
+        "timeAway": "Chassieu Décines",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "9.1"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Auvergne Rhône-Alpes, Regional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/407711/image/small",
+        "timeHome": "Montluçon",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1041387/image/small",
+        "timeAway": "Riomois",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Occitanie Regional 1 - Poule A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/210100/image/small",
+        "timeHome": "Frontignan AV Sac",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040784/image/small",
+        "timeAway": "Canet Roussillon II",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "11.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/375456/image/small",
+        "timeHome": "Entente Montferrier",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/455448/image/small",
+        "timeAway": "Saint Esteve Perpignan",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "11.2"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Occitanie Regional 1 - Poule B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1709/image/small",
+        "timeHome": "Balma",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040780/image/small",
+        "timeAway": "AV Fonsorbes",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gi.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/126304/image/small",
+        "timeHome": "Lincoln RI",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/255156/image/small",
+        "timeAway": "FC Bruno's Magpies",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "A EPS Kykladon - Group 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/497203/image/small",
+        "timeHome": "Thiella Kammariou Santorini",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/497206/image/small",
+        "timeAway": "Nireas Naousa Parou",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "B EPS Piraeus, Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/491144/image/small",
+        "timeHome": "A.O. Profiti Ilia",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/491153/image/small",
+        "timeAway": "Thiseas Peiraios",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "12:30",
+        "tempo": "HT",
+        "id": "15.1"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Liga Bet North A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/380763/image/small",
+        "timeHome": "Hapoel Ironi Karmiel",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/270654/image/small",
+        "timeAway": "Hapoel Kaukab",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "77'",
+        "id": "16.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/297836/image/small",
+        "timeHome": "Ihud Bnei Baqa",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/274679/image/small",
+        "timeAway": "Hapoel Tirat Hacarmel",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "17'",
+        "id": "16.2"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Liga Alef North",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65202/image/small",
+        "timeHome": "Hapoel Kafr Kanna",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/454863/image/small",
+        "timeAway": "Maccabi Kiryat Ata Bialik",
+        "placarHome": "0",
+        "placarAway": "3",
+        "horario": "15:00",
+        "tempo": "57'",
+        "id": "17.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/385597/image/small",
+        "timeHome": "Tzeirey Um El Fahem",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/269689/image/small",
+        "timeAway": "Tzeirei Kfar Kanna",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "56'",
+        "id": "17.2"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "Liga Alef South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7383/image/small",
+        "timeHome": "H. Herzliya",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/825804/image/small",
+        "timeAway": "Agudat Sport Ashdod",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "15:30",
+        "tempo": "42'",
+        "id": "18.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65196/image/small",
+        "timeHome": "Maccabi Ironi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7384/image/small",
+        "timeAway": "H. Marmorek",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "44'",
+        "id": "18.2"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "nome": "Liga Premier Serie A, Apertura, Reserves Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": []
+  },
+  {
+    "indice": 1,
+    "nome": "Potiguar, Feminino - Mata-mata",
+    "imgPais": "https://www.sofascore.com/static/images/flags/br.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "National 3 Groupe A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6914/image/small",
+        "timeHome": "Aviron Bayonnais",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/271887/image/small",
+        "timeAway": "Alberes Argeles",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "National 3 Groupe B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/59812/image/small",
+        "timeHome": "Sable Sur Sarthe",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/39404/image/small",
+        "timeAway": "Chauray",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "National 3 Groupe E",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/32863/image/small",
+        "timeHome": "JA Drancy",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907231/image/small",
+        "timeAway": "Stade de Reims 2",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "14:00",
+        "tempo": "90+'",
+        "id": "4.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/455455/image/small",
+        "timeHome": "US Le Pays Du Valois",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/907240/image/small",
+        "timeAway": "OCPAM",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "HT",
+        "id": "4.2"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "National 3 Groupe F",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/128004/image/small",
+        "timeHome": "Avoine Chinon",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/455451/image/small",
+        "timeAway": "US Cosne",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "5.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/334241/image/small",
+        "timeHome": "FC Montlouis",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/46484/image/small",
+        "timeAway": "Chauvigny",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "53'",
+        "id": "5.2"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "National 3 Groupe I",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/60778/image/small",
+        "timeHome": "Chamalieres",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/132330/image/small",
+        "timeAway": "Chassieu Décines",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Auvergne Rhône-Alpes, Regional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/407711/image/small",
+        "timeHome": "Montluçon",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1041387/image/small",
+        "timeAway": "Riomois",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Occitanie Regional 1 - Poule A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/210100/image/small",
+        "timeHome": "Frontignan AV Sac",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040784/image/small",
+        "timeAway": "Canet Roussillon II",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "8.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/375456/image/small",
+        "timeHome": "Entente Montferrier",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/455448/image/small",
+        "timeAway": "Saint Esteve Perpignan",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "8.2"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Occitanie Regional 1 - Poule B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1709/image/small",
+        "timeHome": "Balma",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040780/image/small",
+        "timeAway": "AV Fonsorbes",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "9.1"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gi.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/126304/image/small",
+        "timeHome": "Lincoln RI",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/255156/image/small",
+        "timeAway": "FC Bruno's Magpies",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "A EPS Kykladon - Group 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/497203/image/small",
+        "timeHome": "Thiella Kammariou Santorini",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/497206/image/small",
+        "timeAway": "Nireas Naousa Parou",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "B EPS Piraeus, Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/491144/image/small",
+        "timeHome": "A.O. Profiti Ilia",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/491153/image/small",
+        "timeAway": "Thiseas Peiraios",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "12:30",
+        "tempo": "HT",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Liga Bet North A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/380763/image/small",
+        "timeHome": "Hapoel Ironi Karmiel",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/270654/image/small",
+        "timeAway": "Hapoel Kaukab",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "77'",
+        "id": "13.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/297836/image/small",
+        "timeHome": "Ihud Bnei Baqa",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/274679/image/small",
+        "timeAway": "Hapoel Tirat Hacarmel",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "17'",
+        "id": "13.2"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Liga Alef North",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65202/image/small",
+        "timeHome": "Hapoel Kafr Kanna",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/454863/image/small",
+        "timeAway": "Maccabi Kiryat Ata Bialik",
+        "placarHome": "0",
+        "placarAway": "3",
+        "horario": "15:00",
+        "tempo": "57'",
+        "id": "14.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/385597/image/small",
+        "timeHome": "Tzeirey Um El Fahem",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/269689/image/small",
+        "timeAway": "Tzeirei Kfar Kanna",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "56'",
+        "id": "14.2"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Liga Alef South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7383/image/small",
+        "timeHome": "H. Herzliya",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/825804/image/small",
+        "timeAway": "Agudat Sport Ashdod",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "15:30",
+        "tempo": "42'",
+        "id": "15.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65196/image/small",
+        "timeHome": "Maccabi Ironi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7384/image/small",
+        "timeAway": "H. Marmorek",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "44'",
+        "id": "15.2"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Liga Premier Serie A, Apertura, Reserves Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/301450/image/small",
+        "timeHome": "Leones Negros II",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/333484/image/small",
+        "timeAway": "CD Uruapan",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:00",
+        "tempo": "ET-96'",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Liga Premier Serie B, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/486725/image/small",
+        "timeHome": "Santiago FC",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/295795/image/small",
+        "timeAway": "Club Calor",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "52'",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "Botola Pro D1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ma.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/118834/image/small",
+        "timeHome": "Union Touarga",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263373/image/small",
+        "timeAway": "Renaissance Zemamra",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "18.1"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "nome": "Liga 3, Group A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6154/image/small",
+        "timeHome": "Trofense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/45146/image/small",
+        "timeAway": "AD Fafe",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "81'",
+        "id": "19.1"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "nome": "Liga Algarve Futebol - Barlavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/938538/image/small",
+        "timeHome": "Odiáxere B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/491671/image/small",
+        "timeAway": "Lagoa B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "20.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371467/image/small",
+        "timeHome": "Carvoeiro United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/861555/image/small",
+        "timeAway": "Algarvense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "20.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/491672/image/small",
+        "timeHome": "Guia",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/393168/image/small",
+        "timeAway": "Alvorense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "20.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/861554/image/small",
+        "timeHome": "Silves FC B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371462/image/small",
+        "timeAway": "Mentes do Desporto",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "20.4"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "nome": "Liga Algarve Futebol - Sotavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": []
+  },
+  {
+    "indice": 1,
+    "nome": "Auvergne Rhône-Alpes, Regional A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Occitanie Regional 1 - Poule A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/210100/image/small",
+        "timeHome": "Frontignan AV Sac",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040784/image/small",
+        "timeAway": "Canet Roussillon II",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "2.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/375456/image/small",
+        "timeHome": "Entente Montferrier",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/455448/image/small",
+        "timeAway": "Saint Esteve Perpignan",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "2.2"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Occitanie Regional 1 - Poule B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/fr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/1709/image/small",
+        "timeHome": "Balma",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/1040780/image/small",
+        "timeAway": "AV Fonsorbes",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "National League",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gi.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/126304/image/small",
+        "timeHome": "Lincoln RI",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/255156/image/small",
+        "timeAway": "FC Bruno's Magpies",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "45'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "A EPS Kykladon - Group 2",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/497203/image/small",
+        "timeHome": "Thiella Kammariou Santorini",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/497206/image/small",
+        "timeAway": "Nireas Naousa Parou",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "Live",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "B EPS Piraeus, Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/gr.png?v=2",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/491144/image/small",
+        "timeHome": "A.O. Profiti Ilia",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/491153/image/small",
+        "timeAway": "Thiseas Peiraios",
+        "placarHome": "2",
+        "placarAway": "0",
+        "horario": "12:30",
+        "tempo": "HT",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Liga Bet North A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/380763/image/small",
+        "timeHome": "Hapoel Ironi Karmiel",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/270654/image/small",
+        "timeAway": "Hapoel Kaukab",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "77'",
+        "id": "7.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/297836/image/small",
+        "timeHome": "Ihud Bnei Baqa",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/274679/image/small",
+        "timeAway": "Hapoel Tirat Hacarmel",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "17'",
+        "id": "7.2"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Liga Alef North",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65202/image/small",
+        "timeHome": "Hapoel Kafr Kanna",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/454863/image/small",
+        "timeAway": "Maccabi Kiryat Ata Bialik",
+        "placarHome": "0",
+        "placarAway": "3",
+        "horario": "15:00",
+        "tempo": "57'",
+        "id": "8.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/385597/image/small",
+        "timeHome": "Tzeirey Um El Fahem",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/269689/image/small",
+        "timeAway": "Tzeirei Kfar Kanna",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "56'",
+        "id": "8.2"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Liga Alef South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7383/image/small",
+        "timeHome": "H. Herzliya",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/825804/image/small",
+        "timeAway": "Agudat Sport Ashdod",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "15:30",
+        "tempo": "42'",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65196/image/small",
+        "timeHome": "Maccabi Ironi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7384/image/small",
+        "timeAway": "H. Marmorek",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "44'",
+        "id": "9.2"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Liga Premier Serie A, Apertura, Reserves Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/301450/image/small",
+        "timeHome": "Leones Negros II",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/333484/image/small",
+        "timeAway": "CD Uruapan",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:00",
+        "tempo": "ET-96'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Liga Premier Serie B, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/486725/image/small",
+        "timeHome": "Santiago FC",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/295795/image/small",
+        "timeAway": "Club Calor",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "52'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Botola Pro D1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ma.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/118834/image/small",
+        "timeHome": "Union Touarga",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263373/image/small",
+        "timeAway": "Renaissance Zemamra",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Liga 3, Group A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6154/image/small",
+        "timeHome": "Trofense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/45146/image/small",
+        "timeAway": "AD Fafe",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "81'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Liga Algarve Futebol - Barlavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/938538/image/small",
+        "timeHome": "Odiáxere B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/491671/image/small",
+        "timeAway": "Lagoa B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "14.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371467/image/small",
+        "timeHome": "Carvoeiro United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/861555/image/small",
+        "timeAway": "Algarvense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "14.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/491672/image/small",
+        "timeHome": "Guia",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/393168/image/small",
+        "timeAway": "Alvorense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "14.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/861554/image/small",
+        "timeHome": "Silves FC B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371462/image/small",
+        "timeAway": "Mentes do Desporto",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "14.4"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Liga Algarve Futebol - Sotavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371463/image/small",
+        "timeHome": "4 ao Cubo",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371464/image/small",
+        "timeAway": "Campinense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "15.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/370754/image/small",
+        "timeHome": "Louletano B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/393169/image/small",
+        "timeAway": "Messinense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "15.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/449589/image/small",
+        "timeHome": "Sport Faro",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371460/image/small",
+        "timeAway": "Marítimo Olhanense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "15.3"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "A.F. Aveiro 2ª Divisão - Zona Norte",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/400692/image/small",
+        "timeHome": "Santiais",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/449527/image/small",
+        "timeAway": "Florgrade B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "A.F. Braga 1ª Divisão - Serie A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/516434/image/small",
+        "timeHome": "Operário Famalicão",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/498071/image/small",
+        "timeAway": "São Veríssimo",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "A.F. Leiria Divisão de Honra LizSport",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371613/image/small",
+        "timeHome": "Caldas S.C B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/232822/image/small",
+        "timeAway": "Beneditense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "18.1"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "nome": "A.F. Porto Hyundai Liga Pro",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/370620/image/small",
+        "timeHome": "Ermesinde 1936",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/38391/image/small",
+        "timeAway": "Padroense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "19.1"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "nome": "Liga INATEL Porto - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/932617/image/small",
+        "timeHome": "Sarnada",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/450913/image/small",
+        "timeAway": "Teibas",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "20.1"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "Liga Bet North A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Liga Alef North",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65202/image/small",
+        "timeHome": "Hapoel Kafr Kanna",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/454863/image/small",
+        "timeAway": "Maccabi Kiryat Ata Bialik",
+        "placarHome": "0",
+        "placarAway": "3",
+        "horario": "15:00",
+        "tempo": "57'",
+        "id": "2.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/385597/image/small",
+        "timeHome": "Tzeirey Um El Fahem",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/269689/image/small",
+        "timeAway": "Tzeirei Kfar Kanna",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "56'",
+        "id": "2.2"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Liga Alef South",
+    "imgPais": "https://www.sofascore.com/static/images/flags/il.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/7383/image/small",
+        "timeHome": "H. Herzliya",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/825804/image/small",
+        "timeAway": "Agudat Sport Ashdod",
+        "placarHome": "0",
+        "placarAway": "1",
+        "horario": "15:30",
+        "tempo": "42'",
+        "id": "3.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/65196/image/small",
+        "timeHome": "Maccabi Ironi",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/7384/image/small",
+        "timeAway": "H. Marmorek",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "44'",
+        "id": "3.2"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Liga Premier Serie A, Apertura, Reserves Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/301450/image/small",
+        "timeHome": "Leones Negros II",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/333484/image/small",
+        "timeAway": "CD Uruapan",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:00",
+        "tempo": "ET-96'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Liga Premier Serie B, Apertura, Playoffs",
+    "imgPais": "https://www.sofascore.com/static/images/flags/mx.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/486725/image/small",
+        "timeHome": "Santiago FC",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/295795/image/small",
+        "timeAway": "Club Calor",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:00",
+        "tempo": "52'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Botola Pro D1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ma.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/118834/image/small",
+        "timeHome": "Union Touarga",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263373/image/small",
+        "timeAway": "Renaissance Zemamra",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "14'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Liga 3, Group A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6154/image/small",
+        "timeHome": "Trofense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/45146/image/small",
+        "timeAway": "AD Fafe",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "81'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Liga Algarve Futebol - Barlavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/938538/image/small",
+        "timeHome": "Odiáxere B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/491671/image/small",
+        "timeAway": "Lagoa B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "8.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371467/image/small",
+        "timeHome": "Carvoeiro United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/861555/image/small",
+        "timeAway": "Algarvense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "8.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/491672/image/small",
+        "timeHome": "Guia",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/393168/image/small",
+        "timeAway": "Alvorense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "8.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/861554/image/small",
+        "timeHome": "Silves FC B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371462/image/small",
+        "timeAway": "Mentes do Desporto",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "8.4"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Liga Algarve Futebol - Sotavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371463/image/small",
+        "timeHome": "4 ao Cubo",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371464/image/small",
+        "timeAway": "Campinense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/370754/image/small",
+        "timeHome": "Louletano B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/393169/image/small",
+        "timeAway": "Messinense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "9.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/449589/image/small",
+        "timeHome": "Sport Faro",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371460/image/small",
+        "timeAway": "Marítimo Olhanense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "9.3"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "A.F. Aveiro 2ª Divisão - Zona Norte",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/400692/image/small",
+        "timeHome": "Santiais",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/449527/image/small",
+        "timeAway": "Florgrade B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "A.F. Braga 1ª Divisão - Serie A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/516434/image/small",
+        "timeHome": "Operário Famalicão",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/498071/image/small",
+        "timeAway": "São Veríssimo",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "A.F. Leiria Divisão de Honra LizSport",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371613/image/small",
+        "timeHome": "Caldas S.C B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/232822/image/small",
+        "timeAway": "Beneditense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "A.F. Porto Hyundai Liga Pro",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/370620/image/small",
+        "timeHome": "Ermesinde 1936",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/38391/image/small",
+        "timeAway": "Padroense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Liga INATEL Porto - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/932617/image/small",
+        "timeHome": "Sarnada",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/450913/image/small",
+        "timeAway": "Teibas",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "14.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/450920/image/small",
+        "timeHome": "GDRC S. Luiz",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/928656/image/small",
+        "timeAway": "CRAC Sousela",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "14.2"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Campeonato de Futebol dos Açores",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/525601/image/small",
+        "timeHome": "Santa Clara B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263707/image/small",
+        "timeAway": "SC Guadalupe",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "15.1"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "U19 Championship, II Division - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/78111/image/small",
+        "timeHome": "Boavista U19",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/337380/image/small",
+        "timeAway": "Gondomar",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Kings League Spain, Playoff",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/461107/image/small",
+        "timeHome": "Ultimate Móstoles",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/461108/image/small",
+        "timeAway": "XBuyer",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "36'",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "Tercera Federación, Group 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/167166/image/small",
+        "timeHome": "Somozas",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263554/image/small",
+        "timeAway": "Villalonga",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "89'",
+        "id": "18.1"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "nome": "Tercera Federación, Group 3",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/466876/image/small",
+        "timeHome": "Monte",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/203598/image/small",
+        "timeAway": "CD Cayon",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "19.1"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "nome": "Tercera Federación, Group 4",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/295562/image/small",
+        "timeHome": "San Ignacio",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/327170/image/small",
+        "timeAway": "Urduliz FT",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "84'",
+        "id": "20.1"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "Botola Pro D1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/ma.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Liga 3, Group A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/6154/image/small",
+        "timeHome": "Trofense",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/45146/image/small",
+        "timeAway": "AD Fafe",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "81'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Liga Algarve Futebol - Barlavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/938538/image/small",
+        "timeHome": "Odiáxere B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/491671/image/small",
+        "timeAway": "Lagoa B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "3.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371467/image/small",
+        "timeHome": "Carvoeiro United",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/861555/image/small",
+        "timeAway": "Algarvense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "3.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/491672/image/small",
+        "timeHome": "Guia",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/393168/image/small",
+        "timeAway": "Alvorense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "3.3"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/861554/image/small",
+        "timeHome": "Silves FC B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371462/image/small",
+        "timeAway": "Mentes do Desporto",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "3.4"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Liga Algarve Futebol - Sotavento",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371463/image/small",
+        "timeHome": "4 ao Cubo",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371464/image/small",
+        "timeAway": "Campinense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "4.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/370754/image/small",
+        "timeHome": "Louletano B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/393169/image/small",
+        "timeAway": "Messinense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "4.2"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/449589/image/small",
+        "timeHome": "Sport Faro",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/371460/image/small",
+        "timeAway": "Marítimo Olhanense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "4.3"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "A.F. Aveiro 2ª Divisão - Zona Norte",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/400692/image/small",
+        "timeHome": "Santiais",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/449527/image/small",
+        "timeAway": "Florgrade B",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "A.F. Braga 1ª Divisão - Serie A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/516434/image/small",
+        "timeHome": "Operário Famalicão",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/498071/image/small",
+        "timeAway": "São Veríssimo",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "A.F. Leiria Divisão de Honra LizSport",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371613/image/small",
+        "timeHome": "Caldas S.C B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/232822/image/small",
+        "timeAway": "Beneditense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "A.F. Porto Hyundai Liga Pro",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/370620/image/small",
+        "timeHome": "Ermesinde 1936",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/38391/image/small",
+        "timeAway": "Padroense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Liga INATEL Porto - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/932617/image/small",
+        "timeHome": "Sarnada",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/450913/image/small",
+        "timeAway": "Teibas",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "9.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/450920/image/small",
+        "timeHome": "GDRC S. Luiz",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/928656/image/small",
+        "timeAway": "CRAC Sousela",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "9.2"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Campeonato de Futebol dos Açores",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/525601/image/small",
+        "timeHome": "Santa Clara B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263707/image/small",
+        "timeAway": "SC Guadalupe",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "U19 Championship, II Division - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/78111/image/small",
+        "timeHome": "Boavista U19",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/337380/image/small",
+        "timeAway": "Gondomar",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Kings League Spain, Playoff",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/461107/image/small",
+        "timeHome": "Ultimate Móstoles",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/461108/image/small",
+        "timeAway": "XBuyer",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "36'",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Tercera Federación, Group 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/167166/image/small",
+        "timeHome": "Somozas",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263554/image/small",
+        "timeAway": "Villalonga",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "89'",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "Tercera Federación, Group 3",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/466876/image/small",
+        "timeHome": "Monte",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/203598/image/small",
+        "timeAway": "CD Cayon",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "nome": "Tercera Federación, Group 4",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/295562/image/small",
+        "timeHome": "San Ignacio",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/327170/image/small",
+        "timeAway": "Urduliz FT",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "84'",
+        "id": "15.1"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "nome": "Tercera Federación, Group 16",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/447083/image/small",
+        "timeHome": "Peña Balsamaiso CF",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263591/image/small",
+        "timeAway": "CA Vianes",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "81'",
+        "id": "16.1"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "nome": "Preferente Guipúzcoa - Group 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/516994/image/small",
+        "timeHome": "Ostadar",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/516991/image/small",
+        "timeAway": "Usurbil",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:20",
+        "tempo": "Live",
+        "id": "17.1"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "nome": "FAW Welsh Cup",
+    "imgPais": "https://www.sofascore.com/static/images/flags/wa.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/4912/image/small",
+        "timeHome": "Connah's Quay",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/37089/image/small",
+        "timeAway": "Mold Alex",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:20",
+        "tempo": "89'",
+        "id": "18.1"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "A.F. Aveiro 2ª Divisão - Zona Norte",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "A.F. Braga 1ª Divisão - Serie A",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/516434/image/small",
+        "timeHome": "Operário Famalicão",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/498071/image/small",
+        "timeAway": "São Veríssimo",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "16:00",
+        "tempo": "Live",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "A.F. Leiria Divisão de Honra LizSport",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/371613/image/small",
+        "timeHome": "Caldas S.C B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/232822/image/small",
+        "timeAway": "Beneditense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "A.F. Porto Hyundai Liga Pro",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/370620/image/small",
+        "timeHome": "Ermesinde 1936",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/38391/image/small",
+        "timeAway": "Padroense",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Liga INATEL Porto - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/932617/image/small",
+        "timeHome": "Sarnada",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/450913/image/small",
+        "timeAway": "Teibas",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "5.1"
+      },
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/450920/image/small",
+        "timeHome": "GDRC S. Luiz",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/928656/image/small",
+        "timeAway": "CRAC Sousela",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "Live",
+        "id": "5.2"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Campeonato de Futebol dos Açores",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/525601/image/small",
+        "timeHome": "Santa Clara B",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263707/image/small",
+        "timeAway": "SC Guadalupe",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "15:30",
+        "tempo": "Live",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "U19 Championship, II Division - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/78111/image/small",
+        "timeHome": "Boavista U19",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/337380/image/small",
+        "timeAway": "Gondomar",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "15:00",
+        "tempo": "51'",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "Kings League Spain, Playoff",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/461107/image/small",
+        "timeHome": "Ultimate Móstoles",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/461108/image/small",
+        "timeAway": "XBuyer",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "36'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "nome": "Tercera Federación, Group 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/167166/image/small",
+        "timeHome": "Somozas",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263554/image/small",
+        "timeAway": "Villalonga",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "89'",
+        "id": "9.1"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "nome": "Tercera Federación, Group 3",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/466876/image/small",
+        "timeHome": "Monte",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/203598/image/small",
+        "timeAway": "CD Cayon",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "10.1"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "nome": "Tercera Federación, Group 4",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/295562/image/small",
+        "timeHome": "San Ignacio",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/327170/image/small",
+        "timeAway": "Urduliz FT",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "84'",
+        "id": "11.1"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "nome": "Tercera Federación, Group 16",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/447083/image/small",
+        "timeHome": "Peña Balsamaiso CF",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263591/image/small",
+        "timeAway": "CA Vianes",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "81'",
+        "id": "12.1"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "nome": "Preferente Guipúzcoa - Group 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/516994/image/small",
+        "timeHome": "Ostadar",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/516991/image/small",
+        "timeAway": "Usurbil",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:20",
+        "tempo": "Live",
+        "id": "13.1"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "nome": "FAW Welsh Cup",
+    "imgPais": "https://www.sofascore.com/static/images/flags/wa.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/4912/image/small",
+        "timeHome": "Connah's Quay",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/37089/image/small",
+        "timeAway": "Mold Alex",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:20",
+        "tempo": "89'",
+        "id": "14.1"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "U19 Championship, II Division - Group B",
+    "imgPais": "https://www.sofascore.com/static/images/flags/pt.png",
+    "jogos": []
+  },
+  {
+    "indice": 2,
+    "nome": "Kings League Spain, Playoff",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/461107/image/small",
+        "timeHome": "Ultimate Móstoles",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/461108/image/small",
+        "timeAway": "XBuyer",
+        "placarHome": "1",
+        "placarAway": "2",
+        "horario": "15:30",
+        "tempo": "36'",
+        "id": "2.1"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "nome": "Tercera Federación, Group 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/167166/image/small",
+        "timeHome": "Somozas",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263554/image/small",
+        "timeAway": "Villalonga",
+        "placarHome": "0",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "89'",
+        "id": "3.1"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "nome": "Tercera Federación, Group 3",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/466876/image/small",
+        "timeHome": "Monte",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/203598/image/small",
+        "timeAway": "CD Cayon",
+        "placarHome": "1",
+        "placarAway": "1",
+        "horario": "14:30",
+        "tempo": "85'",
+        "id": "4.1"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "nome": "Tercera Federación, Group 4",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/295562/image/small",
+        "timeHome": "San Ignacio",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/327170/image/small",
+        "timeAway": "Urduliz FT",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:30",
+        "tempo": "84'",
+        "id": "5.1"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "nome": "Tercera Federación, Group 16",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/447083/image/small",
+        "timeHome": "Peña Balsamaiso CF",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/263591/image/small",
+        "timeAway": "CA Vianes",
+        "placarHome": "2",
+        "placarAway": "2",
+        "horario": "14:30",
+        "tempo": "81'",
+        "id": "6.1"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "nome": "Preferente Guipúzcoa - Group 1",
+    "imgPais": "https://www.sofascore.com/static/images/flags/es.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/516994/image/small",
+        "timeHome": "Ostadar",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/516991/image/small",
+        "timeAway": "Usurbil",
+        "placarHome": "0",
+        "placarAway": "0",
+        "horario": "14:20",
+        "tempo": "Live",
+        "id": "7.1"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "nome": "FAW Welsh Cup",
+    "imgPais": "https://www.sofascore.com/static/images/flags/wa.png",
+    "jogos": [
+      {
+        "escudoH1": "https://img.sofascore.com/api/v1/team/4912/image/small",
+        "timeHome": "Connah's Quay",
+        "escudoH2": "https://img.sofascore.com/api/v1/team/37089/image/small",
+        "timeAway": "Mold Alex",
+        "placarHome": "1",
+        "placarAway": "0",
+        "horario": "14:20",
+        "tempo": "89'",
+        "id": "8.1"
+      }
+    ]
+  },
+  {
+    "indice": 1,
+    "nome": "FAW Welsh Cup",
+    "imgPais": "https://www.sofascore.com/static/images/flags/wa.png",
+    "jogos": []
   }
 ]
