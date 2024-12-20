@@ -14,10 +14,12 @@
   "dependencies": {
     "app-futs": "file:",
     "express": "^4.20.0",
+    "express-handlebars": "^8.0.1",
     "node-schedule": "^2.1.1",
     "puppeteer": "^23.3.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "tailwindcss": "^3.4.17"
   }
 }
