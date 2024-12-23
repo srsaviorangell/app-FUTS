@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Cards</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            width: 100%;
+            height: 50px;
+            background-color: #444;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+        }
+
+        .header img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .section-title {
+            width: 100%;
+            height: 30px;
+            background-color: #555;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        .live-match-card, .upcoming-match-card, .future-match-card {
+            position: relative;
+            width: 100.08px;
+            height: 104.71px;
+            background-color: #222;
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .live-match-card .background, .upcoming-match-card .background, .future-match-card .background {
+            position: absolute;
+            width: 110px;
+            height: 130px;
+            top: -13px;
+            left: -20px;
+            background-size: cover;
+        }
+
+        .live-match-card .foreground, .upcoming-match-card .foreground, .future-match-card .foreground {
+            position: absolute;
+            width: 105px;
+            height: 125px;
+            top: -10.5px;
+            left: -17.5px;
+            background-size: cover;
+        }
+
+        .team1-logo, .team2-logo {
+            position: absolute;
+            width: 162.62px;
+            height: 169.59px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .score-container {
+            position: absolute;
+            width: 15px;
+            height: 45px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+
+        .score {
+            color: white;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+        }
+
+        .separator {
+            color: white;
+            font-weight: 900;
+            font-size: 3px;
+            line-height: 16px;
+        }
+
+        .live-indicator {
+            position: absolute;
+            width: 25.01px;
+            height: 10.02px;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .live-text {
+            color: white;
+            font-size: 5px;
+            line-height: 16px;
+            margin-right: 3px;
+        }
+
+        .degree {
+            color: white;
+            font-size: 10px;
+            line-height: 0px;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 360px;
+            height: 70px;
+            background-color: #333333;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 13px;
+            box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            color: #FFFFFF;
+            text-decoration: none;
+            width: 62px;
+        }
+
+        .nav-icon {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+        }
+
+        .nav-text {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .ao-vivo {
+            width: 31px;
+            height: 30px;
+        }
+
+        .ao-vivo img {
+            width: 31px;
+            height: 30px;
+        }
+
+        .profile-icon {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-Q" alt="Menu">
+        <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-R" alt="Logo">
+        <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-S" alt="Notification">
+    </div>
+
+    <div class="section-title">LIVE</div>
+    <div class="card-container">
+        <div class="live-match-card">
+            <div class="background" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQdxEM3nUkN295');"></div>
+            <div class="foreground" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dRm46CYQNjI8L9');"></div>
+            <div class="team1-logo" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQdxEM3nUkN296');"></div>
+            <div class="team2-logo" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQdxEM3nUkN297');"></div>
+            <div class="score-container" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQdxEM3nUkN298');">
+                <span class="score">2</span>
+                <span class="separator">|</span>
+                <span class="separator">|</span>
+                <span class="score">2</span>
+            </div>
+            <div class="live-indicator" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQdxEM3nUkN299');">
+                <span class="live-text">LIVE</span>
+                <span class="degree">°</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">PRÓXIMOS</div>
+    <div class="card-container">
+        <div class="upcoming-match-card">
+            <div class="background" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeBEM3nUkN29-');"></div>
+            <div class="foreground" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeBEM3nUkN29_');"></div>
+            <div class="team1-logo" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeBEM3nUkN2-A');"></div>
+            <div class="team2-logo" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeBEM3nUkN2-B');"></div>
+            <div class="score-container" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeBEM3nUkN2-C');">
+                <span class="score">0</span>
+                <span class="separator">|</span>
+                <span class="separator">|</span>
+                <span class="score">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">FUTURO</div>
+    <div class="card-container">
+        <div class="future-match-card">
+            <div class="background" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeREM3nUkN2-G');"></div>
+            <div class="foreground" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeREM3nUkN2-H');"></div>
+            <div class="team1-logo" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeREM3nUkN2-E');"></div>
+            <div class="team2-logo" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeREM3nUkN2-F');"></div>
+            <div class="score-container" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQeREM3nUkN2-I');">
+                <span class="score">0</span>
+                <span class="separator">|</span>
+                <span class="separator">|</span>
+                <span class="score">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">NOTICIAS</div>
+    <div class="card-container">
+        <div class="news-section">
+            <div class="news-background" style="background-image: url('https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-K');"></div>
+            <div class="news-text">NOTICIAS</div>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="#" class="nav-item">
+            <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-L" class="nav-icon" alt="Home">
+            <span class="nav-text">INICIO</span>
+        </a>
+        <a href="#" class="nav-item">
+            <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-M" class="nav-icon" alt="Stats">
+            <span class="nav-text">H2H</span>
+        </a>
+        <a href="#" class="nav-item">
+            <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-N" class="ao-vivo" alt="Live">
+            <span class="nav-text">AO VIVO</span>
+        </a>
+        <a href="#" class="nav-item">
+            <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-O" class="nav-icon" alt="Tips">
+            <span class="nav-text">DICAS</span>
+        </a>
+        <a href="#" class="nav-item">
+            <img src="https://dashboard.codeparrot.ai/api/assets/Z2dQehEM3nUkN2-P" class="profile-icon" alt="Profile">
+            <span class="nav-text">PERFIL</span>
+        </a>
+    </div>
+</body>
+</html>
