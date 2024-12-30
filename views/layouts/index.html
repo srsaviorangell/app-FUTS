@@ -11,8 +11,8 @@
 
 
 </head>
-<body class=" overflow-hidden h-lvh max-h-screen grid grid-rows-9 justify-items-center items-center bg-colorapp">
-    <header class="  w-screen  mt-5  row-start-9 row-span-9  flex justify-center items-center">
+<body class=" overflow-hidden h-lvh max-h-screen grid grid-rows-12 justify-items-center items-center bg-colorapp">
+    <header class="  w-screen  mt-5  row-start-12 row-span-1  flex justify-center items-center">
         <menu class="bg-[#333030] w-screen h-14 flex justify-center items-center -mb-2 rounded-bl-custom rounded-br-custom  shadow-inner-custom">
             <div class="flex justify-center items-center  w-18 h-12 p-2 ">
                 <img class="" src="/src/logos/inicio.png" alt="ícone inicio">
@@ -35,45 +35,114 @@
 
 
 
-     <main class=" shadow-conteiner	w-[96%] row-start-2 row-span-7 border-2 ">
-        <conteiner-jogos class="">
-            <conteiner-linha class="flex flex-col justify-start h-[40rem] text-center">
-                <div class="font-ubuntu font-bold text-white w-[3.5rem] ml-1 rounded-[1.25rem] border-2">Live</div>
-                <div class="border-2 w-[100%] "></div>
-            </div>
+     <main class=" shadow-conteiner	w-[96%] row-start-2 row-span-10  h-full grid grid-rows-4" >
         <!-- live -->
-        <!-- <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div>proximos</div> -->
+        <div class= "  row-start-1 row-span-1 h-full  ">
+                <div class="flex flex-col justify-start h-full text-center">
+                    <div class="shadow-elevo flex justify-center items-center text-center text-border-red bg-[#6D6D6F] font-ubuntu  font-black text-white w-full  rounded-[1.15rem] border-[0.rem] h-5 ">LIVE</div>
+                    <div class=" shadow-elevo flex mt-1  border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
+                    <!--conteiner dos jogos live-->
+                    <div  id="conteiner-times-live" class="mt-1  m- grid grid-cols-3 h-full">
+                    
+                        <div id="times-live-1" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
+                            <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                <!-- Parte vermelha (Home) -->
+                                <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
+                                  <img src="/src/logos/flamengo.png" alt="Home Logo" class="border-2 w-8 h-10 m-2">
+                                </div>
+                                <!-- Parte amarela (Visitante) -->
+                                <div class="absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
+                                  <img src="/src/logos/corint.png" alt="Visitor Logo" class="w-9 h-10 m-2">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+
+                        
+
+
+
+
+
+
+                        <div id="times-live-2" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
+                            <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                <!-- Parte vermelha (Home) -->
+                                <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
+                                  <img src="/src/logos/flamengo.png" alt="Home Logo" class="border-2 w-8 h-10 m-2">
+                                </div>
+                                <!-- Parte amarela (Visitante) -->
+                                <div class="absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
+                                  <img src="/src/logos/corint.png" alt="Visitor Logo" class="w-9 h-10 m-2">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="times-live-3" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
+                            <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                <!-- Parte vermelha (Home) -->
+                                <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
+                                  <img src="/src/logos/flamengo.png" alt="Home Logo" class="border-2 w-8 h-10 m-2">
+                                </div>
+                                <!-- Parte amarela (Visitante) -->
+                                <div class="absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
+                                  <img src="/src/logos/corint.png" alt="Visitor Logo" class="w-9 h-10 m-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" shadow-elevo  mt-1 border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
+                </div>
+        </div>
+        
         <!-- proximos -->
-        <!-- <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div>futuro</div> -->
+        <div class= "  row-start-2 row-span-1 h-full  ">
+            <div class="flex flex-col justify-start h-full text-center">
+                <div class="shadow-elevo flex justify-center items-center text-center text-border-red bg-[#6D6D6F] font-ubuntu  font-black text-white w-full mt-1  rounded-[1.15rem] border-[0.rem] h-5 ">PROXIMOS</div>
+                <div class=" shadow-elevo flex mt-1  border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
+                <!--conteiner dos jogos live-->
+                <div class="mt-1  m- grid grid-cols-3 h-full">
+                    <div class="rounded-[0.50rem] flex ml-1 border-2 w-[6.57rem] h-full "></div>
+                    <div class="rounded-[0.50rem] flex border-2 w-[6.57rem] h-full "></div>
+                    <div class="rounded-[0.50rem] flex border-2 w-[6.57rem] h-full "></div>
+                </div>
+                <div class=" shadow-elevo  mt-1 border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
+            </div>
+         </div>
+       
+
+      
+        
         <!-- futuros -->
-        <!-- <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        <div class="border-2 w-[6.57rem] h-[7.81rem]"></div> -->
-        </conteiner-jogos> 
-        
-        <!-- <conteiner-noticias class="grid grid-cols-2">
-            <div>noticias</div> -->
-            <!-- noticias -->
-            <!-- <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-            <div class="border-2 w-[6.57rem] h-[7.81rem]"></div>
-        </conteiner-noticias> -->
-        
+        <div class= "  row-start-3 row-span-1 h-full  ">
+            <div class="flex flex-col justify-start h-full text-center">
+                <div class="shadow-elevo flex justify-center items-center text-center text-border-red bg-[#6D6D6F] font-ubuntu  font-black text-white w-full mt-1 rounded-[1.15rem] border-[0.rem] h-5 ">JogosDoDia</div>
+                <div class=" shadow-elevo flex mt-1  border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
+                <!--conteiner dos jogos live-->
+                <div class="mt-1  m- grid grid-cols-3 h-full">
+                    <div class="rounded-[0.50rem] flex ml-1 border-2 w-[6.57rem] h-full "></div>
+                    <div class="rounded-[0.50rem] flex border-2 w-[6.57rem] h-full "></div>
+                    <div class="rounded-[0.50rem] flex border-2 w-[6.57rem] h-full "></div>
+                </div>
+                <div class=" shadow-elevo  mt-1 border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
+            </div>
+         </div>
+      
+        <!-- noticias -->
+        <div class= "  row-start-4 row-span-1 h-full  ">
+            <div class="flex flex-col justify-start h-full text-center">
+                <div class="shadow-elevo flex justify-center items-center text-center text-border-red bg-[#6D6D6F] font-ubuntu  font-black text-white w-full mt-1 rounded-[1.15rem] border-[0.rem] h-5 ">NOTICIAS</div>
+                <div class=" shadow-elevo flex mt-1  border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
+                <!--conteiner dos jogos live-->
+                <div class=" grid grid-cols-2 h-full ">
+                    <div class=" rounded-[1.55rem] flex ml-1 border-2 w-[10.57rem] h-full mt-[0.75rem] "></div>
+                    <div class=" rounded-[1.55rem] flex border-2 w-[10.57rem] h-full mt-[0.75rem]"></div>
+                </div>
+            </div>
+         </div>
         
     </main>
-
-
-
-
-
-
-
-
 
 
     <footer class=" w-screen h-14 mb-12  mt-8  row-start-1 row-span-1  flex justify-center items-center  ">
