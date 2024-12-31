@@ -10,6 +10,8 @@ module.exports = {
     extend: {
       fontFamily: {
         ubuntu: ['Ubuntu', 'sans-serif'],
+        orbitron: ['Orbitron', 'sans-serif']
+
       },
       colors: {
         colorapp: '#333030',
@@ -22,6 +24,7 @@ module.exports = {
     },
     boxShadow: {
       'inner-custom': 'inset 1px 4px 10px 0px rgba(0, 0, 0, 1)', // Adiciona sua sombra interna personalizada
+      'escudo': '4px 4px 3px 0 rgba(255, 255, 255, 0.6)', 
     },gridTemplateRows: {
       // Adiciona uma configuração para 19 linhas
       '19': 'repeat(19, minmax(0, 1fr))',
