@@ -851,6 +851,12 @@ video {
   justify-items: center;
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -935,6 +941,11 @@ video {
   background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
@@ -945,6 +956,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .pb-\[1rem\] {
@@ -971,20 +986,16 @@ video {
   font-family: Ubuntu, sans-serif;
 }
 
+.text-\[0\.35rem\] {
+  font-size: 0.35rem;
+}
+
 .text-\[0\.5rem\] {
   font-size: 0.5rem;
 }
 
 .text-\[0\.70rem\] {
   font-size: 0.70rem;
-}
-
-.text-\[0\.4rem\] {
-  font-size: 0.4rem;
-}
-
-.text-\[0\.35rem\] {
-  font-size: 0.35rem;
 }
 
 .font-black {
@@ -1044,15 +1055,15 @@ video {
   text-shadow: 0px 0px 1px red, 0px 0px 2px red;
 }
 
-.text-border-black {
-  text-shadow: 0px 0px 1px rgb(0, 0, 0), 0px 0px 2px red;
-}
-
 .shadow-elevo {
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .img {
   filter:drop-shadow(8px 8px 8px rgba(0,0,0,1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
