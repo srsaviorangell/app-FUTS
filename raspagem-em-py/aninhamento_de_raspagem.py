@@ -1,5 +1,8 @@
 import json
+import time
 from datetime import datetime
+
+agora = int(time.time())
 
 with open ("dados.json", "r", encoding="utf-8") as live:
     dados = json.load(live)
@@ -7,7 +10,6 @@ with open ("dados.json", "r", encoding="utf-8") as live:
 json_para_API = {}
 id_dos_campeonatos = 1
 contador_jogos_por_campeonato = {}
-
 
 for evento in dados["events"]:
     pais = evento["tournament"]["category"]["name"]
@@ -21,7 +23,7 @@ for evento in dados["events"]:
     genero = evento["homeTeam"].get("gender","sem genero")
 
     time_home = evento["homeTeam"]["name"]
-    pais_time_home = evento["homeTeam"]["country"]["name"]
+    pais_time_home = evento["homeTeam"]["country"].get("name")
     id_team_home = evento["homeTeam"]["id"]
     escudo_team_home =f"https://img.sofascore.com/api/v1/team/{id_team_home}/image/small"
 
@@ -47,9 +49,18 @@ for evento in dados["events"]:
     hora = datetime.fromtimestamp(data_timestamp).strftime("%H:%M")
 
 # Calculando o tempo decorrido de jogo (em minutos)
-    time_jogo_bruto = evento["time"].get("currentPeriodStartTimestamp",0)
-    time_inicio_bruto = evento["startTimestamp"]
-    time_live = (int(time_jogo_bruto) - int(time_inicio_bruto) ) / 60
+    time_jogo_bruto = evento["time"].get("currentPeriodStartTimestamp",0) #hora do jogo roando o periodo do jogo 
+   # time_inicio_bruto = evento["startTimestamp"] #inicio do jogo em tempo inicio
+    tempo_decorrido = int(agora) - int(time_jogo_bruto) 
+
+    if tempo_decorrido != None:
+        time_live = tempo_decorrido // 60
+    else:
+        time_live = "//"
+        
+
+    tempo = evento["time"].get("totalPeriodCount", "-")
+
 
 # Convertendo os tempos extras de segundos para minutos
     acrescimo_bruto = evento["time"].get("extra",0)
@@ -65,7 +76,6 @@ for evento in dados["events"]:
         "time_casa": time_home ,
         "id_team_casa":  id_team_home, 
         "escudo_team_home":escudo_team_home,
-
         "placar_casa": score_display_home,
         "x": "x",
         "time_visitante": time_away,
@@ -73,6 +83,7 @@ for evento in dados["events"]:
         "escudo_team_away":escudo_team_away,
         "placar_visitante": score_display_away,
         "time_live": round(time_live) ,
+        "TEMPO": tempo,
         "data": data ,
         "hora": hora ,
 
@@ -89,6 +100,7 @@ for evento in dados["events"]:
         "id_team_visitante":  id_team_away, 
         "placar_visitante": score_display_away,
         "time_live": round(time_live) ,
+        "TEMPO": tempo,
         "data": data ,
         "hora": hora ,
         "score_home_partida": score_home_partida, 
@@ -102,7 +114,6 @@ for evento in dados["events"]:
         "inicia_final":int(inicia_final),
         "escudo_team_home":escudo_team_home,
         "escudo_team_away":escudo_team_away,
-
 
     }
     campeonatos = {
@@ -128,7 +139,7 @@ for evento in dados["events"]:
         id_jogo = f"{json_para_API[campeonato]['campeonatos']['id']}.{contador_jogos_por_campeonato[campeonato]}"
 
     # Adiciona o ID ao jogo
-    jogosVisual[0]["id"] = id_jogo  # jogosVisual é uma tupla (note o [0])
+    jogosVisual[0]["id"] = id_jogo  
     jogosDadosBruto["id"] = id_jogo
 
     # Adiciona o jogo à lista
@@ -136,18 +147,11 @@ for evento in dados["events"]:
         "visual": jogosVisual,
         "dados_brutos": jogosDadosBruto
     })
-
-    
-
   
     with open('dados_jogos.json','w',encoding='utf-8') as arquivo:
         json.dump(json_para_API, arquivo, ensure_ascii=False, indent=4)
-
-### o deepseak ta ajudando nesse parte final depois e so conteinizar e subir para ficar rodando em liver e depois jogar para a apai 
 
 total_geral = 0
 for campeonato in json_para_API.values():
     total_geral += len(campeonato["jogos"])
 print(f"Total geral de jogos em todos campeonatos: {total_geral}")
-#print(f"lista:{contador_jogos_por_campeonato}")
-

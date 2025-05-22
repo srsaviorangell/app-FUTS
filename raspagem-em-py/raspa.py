@@ -3,14 +3,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
+import time
+import random
 
+intervalos = [30, 38, 45]
 url = 'https://www.sofascore.com/api/v1/sport/football/events/live'
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless=new")
 driver = webdriver.Chrome(options=options)
 
-try:
+def raspa_dados_live():
     driver.get(url)
     
     json_pre = WebDriverWait(driver, 10).until(
@@ -29,6 +32,17 @@ try:
     print("✅ JSON formatado e salvo em 'dados.json'!")
     print("Exemplo de dados:", list(json_data.keys())[:3])
     
+try:
+    while True:
+        try:
+            raspa_dados_live()
+        except Exception as e:
+            print("erro ao raspar:",e)
+        tempo = random.choice(intervalos)
+        print(f"⏱️ Aguardando {tempo} segundos até a próxima raspagem...")
+
+        time.sleep(tempo)
+                 
 except json.JSONDecodeError as e:
     print("⚠️ Erro ao decodificar JSON:", e)
 except Exception as e:

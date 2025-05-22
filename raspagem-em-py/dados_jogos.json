@@ -1,595 +1,49 @@
 {
-    "Brasileirão Série B": {
+    "Primera LPF, Reserves, Apertura": {
         "campeonatos": {
             "id": 1,
-            "pais": "Brazil",
-            "abreveaturaPais": "BRA",
-            "campeonato": "Brasileirão Série B",
-            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "Volta Redonda",
-                        "id_team_casa": 6982,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/6982/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Amazonas FC",
-                        "id_team_visitante": 336664,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/336664/image/small",
-                        "placar_visitante": 1,
-                        "time_live": 0,
-                        "data": "19/05/2025",
-                        "hora": "19:00",
-                        "id": "1.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Brazil",
-                    "time_casa": "Volta Redonda",
-                    "id_team_casa": 6982,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Brazil",
-                    "time_visitante": "Amazonas FC",
-                    "id_team_visitante": 336664,
-                    "placar_visitante": 1,
-                    "time_live": 0,
-                    "data": "19/05/2025",
-                    "hora": "19:00",
-                    "score_home_partida": 0,
-                    "score_home_ht": 0,
-                    "score_home_normal_time": 0,
-                    "score_away_partida": 1,
-                    "score_away_ht": 1,
-                    "score_away_normal_time": 1,
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/6982/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/336664/image/small",
-                    "id": "1.1"
-                }
-            }
-        ]
-    },
-    "Liga de Primera": {
-        "campeonatos": {
-            "id": 2,
-            "pais": "Chile",
-            "abreveaturaPais": "CHL",
-            "campeonato": "Liga de Primera",
-            "img_pais": "https://img.sofascore.com/api/v1/country/CH/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "Colo Colo",
-                        "id_team_casa": 3155,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/3155/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Ñublense",
-                        "id_team_visitante": 7029,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/7029/image/small",
-                        "placar_visitante": 2,
-                        "time_live": 2,
-                        "data": "19/05/2025",
-                        "hora": "19:00",
-                        "id": "2.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Chile",
-                    "time_casa": "Colo Colo",
-                    "id_team_casa": 3155,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Chile",
-                    "time_visitante": "Ñublense",
-                    "id_team_visitante": 7029,
-                    "placar_visitante": 2,
-                    "time_live": 2,
-                    "data": "19/05/2025",
-                    "hora": "19:00",
-                    "score_home_partida": 0,
-                    "score_home_ht": 0,
-                    "score_home_normal_time": 0,
-                    "score_away_partida": 2,
-                    "score_away_ht": 2,
-                    "score_away_normal_time": 2,
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/3155/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/7029/image/small",
-                    "id": "2.1"
-                }
-            }
-        ]
-    },
-    "Liga 1, Apertura": {
-        "campeonatos": {
-            "id": 3,
-            "pais": "Peru",
-            "abreveaturaPais": "PER",
-            "campeonato": "Liga 1, Apertura",
-            "img_pais": "https://img.sofascore.com/api/v1/country/PE/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "Deportivo Binacional",
-                        "id_team_casa": 275839,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/275839/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Cienciano",
-                        "id_team_visitante": 2301,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/2301/image/small",
-                        "placar_visitante": 0,
-                        "time_live": 0,
-                        "data": "19/05/2025",
-                        "hora": "19:30",
-                        "id": "3.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Peru",
-                    "time_casa": "Deportivo Binacional",
-                    "id_team_casa": 275839,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Peru",
-                    "time_visitante": "Cienciano",
-                    "id_team_visitante": 2301,
-                    "placar_visitante": 0,
-                    "time_live": 0,
-                    "data": "19/05/2025",
-                    "hora": "19:30",
-                    "score_home_partida": 0,
-                    "score_home_ht": 0,
-                    "score_home_normal_time": 0,
-                    "score_away_partida": 0,
-                    "score_away_ht": 0,
-                    "score_away_normal_time": 0,
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/275839/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/2301/image/small",
-                    "id": "3.1"
-                }
-            }
-        ]
-    },
-    "Liga Profesional de Fútbol, Apertura Playoffs": {
-        "campeonatos": {
-            "id": 4,
             "pais": "Argentina",
             "abreveaturaPais": "ARG",
-            "campeonato": "Liga Profesional de Fútbol, Apertura Playoffs",
+            "campeonato": "Primera LPF, Reserves, Apertura",
             "img_pais": "https://img.sofascore.com/api/v1/country/AR/flag "
         },
         "jogos": [
             {
                 "visual": [
                     {
-                        "time_casa": "Argentinos Juniors",
-                        "id_team_casa": 3216,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/3216/image/small",
+                        "time_casa": "Central Cordoba Reserve",
+                        "id_team_casa": 327823,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/327823/image/small",
                         "placar_casa": 0,
                         "x": "x",
-                        "time_visitante": "San Lorenzo",
-                        "id_team_visitante": 3201,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/3201/image/small",
-                        "placar_visitante": 0,
-                        "time_live": 1,
-                        "data": "19/05/2025",
+                        "time_visitante": "Independiente Rivadavia De Mendoza",
+                        "id_team_visitante": 402888,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/402888/image/small",
+                        "placar_visitante": 1,
+                        "time_live": 48,
+                        "TEMPO": 2,
+                        "data": "22/05/2025",
                         "hora": "19:00",
-                        "id": "4.1"
+                        "id": "1.1"
                     }
                 ],
                 "dados_brutos": {
                     "genero": "M",
                     "pais_time_home": "Argentina",
-                    "time_casa": "Argentinos Juniors",
-                    "id_team_casa": 3216,
+                    "time_casa": "Central Cordoba Reserve",
+                    "id_team_casa": 327823,
                     "placar_casa": 0,
                     "x": "x",
                     "pais_time_away": "Argentina",
-                    "time_visitante": "San Lorenzo",
-                    "id_team_visitante": 3201,
-                    "placar_visitante": 0,
-                    "time_live": 1,
-                    "data": "19/05/2025",
+                    "time_visitante": "Independiente Rivadavia De Mendoza",
+                    "id_team_visitante": 402888,
+                    "placar_visitante": 1,
+                    "time_live": 48,
+                    "TEMPO": 2,
+                    "data": "22/05/2025",
                     "hora": "19:00",
                     "score_home_partida": 0,
                     "score_home_ht": 0,
-                    "score_home_normal_time": 0,
-                    "score_away_partida": 0,
-                    "score_away_ht": 0,
-                    "score_away_normal_time": 0,
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/3216/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/3201/image/small",
-                    "id": "4.1"
-                }
-            }
-        ]
-    },
-    "Brasileirão Série C": {
-        "campeonatos": {
-            "id": 5,
-            "pais": "Brazil",
-            "abreveaturaPais": "BRA",
-            "campeonato": "Brasileirão Série C",
-            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "ABC",
-                        "id_team_casa": 21838,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/21838/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Anápolis",
-                        "id_team_visitante": 21872,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/21872/image/small",
-                        "placar_visitante": 0,
-                        "time_live": -1,
-                        "data": "19/05/2025",
-                        "hora": "19:30",
-                        "id": "5.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Brazil",
-                    "time_casa": "ABC",
-                    "id_team_casa": 21838,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Brazil",
-                    "time_visitante": "Anápolis",
-                    "id_team_visitante": 21872,
-                    "placar_visitante": 0,
-                    "time_live": -1,
-                    "data": "19/05/2025",
-                    "hora": "19:30",
-                    "score_home_partida": 0,
-                    "score_home_ht": "sem placar",
-                    "score_home_normal_time": "evento sem informacao",
-                    "score_away_partida": 0,
-                    "score_away_ht": "sem placar",
-                    "score_away_normal_time": "evento sem informacao",
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/21838/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/21872/image/small",
-                    "id": "5.1"
-                }
-            },
-            {
-                "visual": [
-                    {
-                        "time_casa": "Confiança",
-                        "id_team_casa": 2017,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/2017/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Londrina",
-                        "id_team_visitante": 2022,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/2022/image/small",
-                        "placar_visitante": 1,
-                        "time_live": 0,
-                        "data": "19/05/2025",
-                        "hora": "19:30",
-                        "id": "5.2"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Brazil",
-                    "time_casa": "Confiança",
-                    "id_team_casa": 2017,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Brazil",
-                    "time_visitante": "Londrina",
-                    "id_team_visitante": 2022,
-                    "placar_visitante": 1,
-                    "time_live": 0,
-                    "data": "19/05/2025",
-                    "hora": "19:30",
-                    "score_home_partida": 0,
-                    "score_home_ht": "sem placar",
-                    "score_home_normal_time": "evento sem informacao",
-                    "score_away_partida": 1,
-                    "score_away_ht": "sem placar",
-                    "score_away_normal_time": "evento sem informacao",
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/2017/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/2022/image/small",
-                    "id": "5.2"
-                }
-            }
-        ]
-    },
-    "Mineiro, Módulo II, Grupo B": {
-        "campeonatos": {
-            "id": 6,
-            "pais": "Brazil",
-            "abreveaturaPais": "BRA",
-            "campeonato": "Mineiro, Módulo II, Grupo B",
-            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "Democrata FC",
-                        "id_team_casa": 343628,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/343628/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Guarani de Divinópolis",
-                        "id_team_visitante": 484627,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/484627/image/small",
-                        "placar_visitante": 0,
-                        "time_live": 1,
-                        "data": "19/05/2025",
-                        "hora": "19:30",
-                        "id": "6.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Brazil",
-                    "time_casa": "Democrata FC",
-                    "id_team_casa": 343628,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Brazil",
-                    "time_visitante": "Guarani de Divinópolis",
-                    "id_team_visitante": 484627,
-                    "placar_visitante": 0,
-                    "time_live": 1,
-                    "data": "19/05/2025",
-                    "hora": "19:30",
-                    "score_home_partida": 0,
-                    "score_home_ht": 0,
-                    "score_home_normal_time": "evento sem informacao",
-                    "score_away_partida": 0,
-                    "score_away_ht": 0,
-                    "score_away_normal_time": "evento sem informacao",
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/343628/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/484627/image/small",
-                    "id": "6.1"
-                }
-            },
-            {
-                "visual": [
-                    {
-                        "time_casa": "Nacional de Muriaé",
-                        "id_team_casa": 387119,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/387119/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Ipatinga",
-                        "id_team_visitante": 7297,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/7297/image/small",
-                        "placar_visitante": 0,
-                        "time_live": 3,
-                        "data": "19/05/2025",
-                        "hora": "19:30",
-                        "id": "6.2"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Brazil",
-                    "time_casa": "Nacional de Muriaé",
-                    "id_team_casa": 387119,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Brazil",
-                    "time_visitante": "Ipatinga",
-                    "id_team_visitante": 7297,
-                    "placar_visitante": 0,
-                    "time_live": 3,
-                    "data": "19/05/2025",
-                    "hora": "19:30",
-                    "score_home_partida": 0,
-                    "score_home_ht": 0,
-                    "score_home_normal_time": "evento sem informacao",
-                    "score_away_partida": 0,
-                    "score_away_ht": 0,
-                    "score_away_normal_time": "evento sem informacao",
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/387119/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/7297/image/small",
-                    "id": "6.2"
-                }
-            }
-        ]
-    },
-    "U17 Gaúcho – Grupo A": {
-        "campeonatos": {
-            "id": 7,
-            "pais": "Brazil Amateur",
-            "abreveaturaPais": "BRA",
-            "campeonato": "U17 Gaúcho – Grupo A",
-            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "Aimoré U17",
-                        "id_team_casa": 508230,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/508230/image/small",
-                        "placar_casa": 1,
-                        "x": "x",
-                        "time_visitante": "Novo Hamburgo U17",
-                        "id_team_visitante": 508224,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/508224/image/small",
-                        "placar_visitante": 0,
-                        "time_live": -29128230,
-                        "data": "19/05/2025",
-                        "hora": "19:30",
-                        "id": "7.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "sem genero",
-                    "pais_time_home": "Brazil",
-                    "time_casa": "Aimoré U17",
-                    "id_team_casa": 508230,
-                    "placar_casa": 1,
-                    "x": "x",
-                    "pais_time_away": "Brazil",
-                    "time_visitante": "Novo Hamburgo U17",
-                    "id_team_visitante": 508224,
-                    "placar_visitante": 0,
-                    "time_live": -29128230,
-                    "data": "19/05/2025",
-                    "hora": "19:30",
-                    "score_home_partida": 1,
-                    "score_home_ht": "sem placar",
-                    "score_home_normal_time": "evento sem informacao",
-                    "score_away_partida": 0,
-                    "score_away_ht": "sem placar",
-                    "score_away_normal_time": "evento sem informacao",
-                    "acrescimo_final": 0,
-                    "maximo_final": 0,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/508230/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/508224/image/small",
-                    "id": "7.1"
-                }
-            }
-        ]
-    },
-    "División Intermedia": {
-        "campeonatos": {
-            "id": 8,
-            "pais": "Paraguay",
-            "abreveaturaPais": "PRY",
-            "campeonato": "División Intermedia",
-            "img_pais": "https://img.sofascore.com/api/v1/country/PA/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "River Plate de Asunción",
-                        "id_team_casa": 90970,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/90970/image/small",
-                        "placar_casa": 0,
-                        "x": "x",
-                        "time_visitante": "Encarnacion FC",
-                        "id_team_visitante": 508372,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/508372/image/small",
-                        "placar_visitante": 0,
-                        "time_live": 0,
-                        "data": "19/05/2025",
-                        "hora": "19:30",
-                        "id": "8.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Paraguay",
-                    "time_casa": "River Plate de Asunción",
-                    "id_team_casa": 90970,
-                    "placar_casa": 0,
-                    "x": "x",
-                    "pais_time_away": "Paraguay",
-                    "time_visitante": "Encarnacion FC",
-                    "id_team_visitante": 508372,
-                    "placar_visitante": 0,
-                    "time_live": 0,
-                    "data": "19/05/2025",
-                    "hora": "19:30",
-                    "score_home_partida": 0,
-                    "score_home_ht": 0,
-                    "score_home_normal_time": "evento sem informacao",
-                    "score_away_partida": 0,
-                    "score_away_ht": 0,
-                    "score_away_normal_time": "evento sem informacao",
-                    "acrescimo_final": 9,
-                    "maximo_final": 45,
-                    "inicia_final": 0,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/90970/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/508372/image/small",
-                    "id": "8.1"
-                }
-            }
-        ]
-    },
-    "Liga AUF Uruguaya, Apertura": {
-        "campeonatos": {
-            "id": 9,
-            "pais": "Uruguay",
-            "abreveaturaPais": "URY",
-            "campeonato": "Liga AUF Uruguaya, Apertura",
-            "img_pais": "https://img.sofascore.com/api/v1/country/UR/flag "
-        },
-        "jogos": [
-            {
-                "visual": [
-                    {
-                        "time_casa": "Plaza Colonia",
-                        "id_team_casa": 3235,
-                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/3235/image/small",
-                        "placar_casa": 1,
-                        "x": "x",
-                        "time_visitante": "Danubio",
-                        "id_team_visitante": 3228,
-                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/3228/image/small",
-                        "placar_visitante": 1,
-                        "time_live": 63,
-                        "data": "19/05/2025",
-                        "hora": "18:00",
-                        "id": "9.1"
-                    }
-                ],
-                "dados_brutos": {
-                    "genero": "M",
-                    "pais_time_home": "Uruguay",
-                    "time_casa": "Plaza Colonia",
-                    "id_team_casa": 3235,
-                    "placar_casa": 1,
-                    "x": "x",
-                    "pais_time_away": "Uruguay",
-                    "time_visitante": "Danubio",
-                    "id_team_visitante": 3228,
-                    "placar_visitante": 1,
-                    "time_live": 63,
-                    "data": "19/05/2025",
-                    "hora": "18:00",
-                    "score_home_partida": 1,
-                    "score_home_ht": 1,
                     "score_home_normal_time": "evento sem informacao",
                     "score_away_partida": 1,
                     "score_away_ht": 0,
@@ -597,9 +51,507 @@
                     "acrescimo_final": 9,
                     "maximo_final": 90,
                     "inicia_final": 45,
-                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/3235/image/small",
-                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/3228/image/small",
-                    "id": "9.1"
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/327823/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/402888/image/small",
+                    "id": "1.1"
+                }
+            }
+        ]
+    },
+    "Copa Betano do Brasil": {
+        "campeonatos": {
+            "id": 2,
+            "pais": "Brazil",
+            "abreveaturaPais": "BRA",
+            "campeonato": "Copa Betano do Brasil",
+            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Maracanã",
+                        "id_team_casa": 87156,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/87156/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Internacional",
+                        "id_team_visitante": 1966,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/1966/image/small",
+                        "placar_visitante": 2,
+                        "time_live": 34,
+                        "TEMPO": "-",
+                        "data": "22/05/2025",
+                        "hora": "19:00",
+                        "id": "2.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Maracanã",
+                    "id_team_casa": 87156,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Internacional",
+                    "id_team_visitante": 1966,
+                    "placar_visitante": 2,
+                    "time_live": 34,
+                    "TEMPO": "-",
+                    "data": "22/05/2025",
+                    "hora": "19:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": 0,
+                    "score_away_partida": 2,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": 2,
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/87156/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/1966/image/small",
+                    "id": "2.1"
+                }
+            },
+            {
+                "visual": [
+                    {
+                        "time_casa": "Vila Nova FC",
+                        "id_team_casa": 2021,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/2021/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Cruzeiro",
+                        "id_team_visitante": 1954,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/1954/image/small",
+                        "placar_visitante": 2,
+                        "time_live": 42,
+                        "TEMPO": "-",
+                        "data": "22/05/2025",
+                        "hora": "19:00",
+                        "id": "2.2"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Vila Nova FC",
+                    "id_team_casa": 2021,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Cruzeiro",
+                    "id_team_visitante": 1954,
+                    "placar_visitante": 2,
+                    "time_live": 42,
+                    "TEMPO": "-",
+                    "data": "22/05/2025",
+                    "hora": "19:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 2,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/2021/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/1954/image/small",
+                    "id": "2.2"
+                }
+            },
+            {
+                "visual": [
+                    {
+                        "time_casa": "Palmeiras",
+                        "id_team_casa": 1963,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/1963/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Ceará",
+                        "id_team_visitante": 2001,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/2001/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 16,
+                        "TEMPO": "-",
+                        "data": "22/05/2025",
+                        "hora": "19:30",
+                        "id": "2.3"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Palmeiras",
+                    "id_team_casa": 1963,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Ceará",
+                    "id_team_visitante": 2001,
+                    "placar_visitante": 0,
+                    "time_live": 16,
+                    "TEMPO": "-",
+                    "data": "22/05/2025",
+                    "hora": "19:30",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/1963/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/2001/image/small",
+                    "id": "2.3"
+                }
+            }
+        ]
+    },
+    "Northern Super League, Regular Season": {
+        "campeonatos": {
+            "id": 3,
+            "pais": "Canada",
+            "abreveaturaPais": "CAN",
+            "campeonato": "Northern Super League, Regular Season",
+            "img_pais": "https://img.sofascore.com/api/v1/country/CA/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Montreal Roses FC",
+                        "id_team_casa": 1087188,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/1087188/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "AFC Toronto",
+                        "id_team_visitante": 1087191,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/1087191/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 39,
+                        "TEMPO": "-",
+                        "data": "22/05/2025",
+                        "hora": "21:00",
+                        "id": "3.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "F",
+                    "pais_time_home": "Canada",
+                    "time_casa": "Montreal Roses FC",
+                    "id_team_casa": 1087188,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Canada",
+                    "time_visitante": "AFC Toronto",
+                    "id_team_visitante": 1087191,
+                    "placar_visitante": 0,
+                    "time_live": 39,
+                    "TEMPO": "-",
+                    "data": "22/05/2025",
+                    "hora": "21:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": 0,
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": 0,
+                    "acrescimo_final": 9,
+                    "maximo_final": 45,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/1087188/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/1087191/image/small",
+                    "id": "3.1"
+                }
+            }
+        ]
+    },
+    "Liga TDP": {
+        "campeonatos": {
+            "id": 4,
+            "pais": "Mexico",
+            "abreveaturaPais": "MEX",
+            "campeonato": "Liga TDP",
+            "img_pais": "https://img.sofascore.com/api/v1/country/ME/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Bombarderos De Tecamac FC",
+                        "id_team_casa": 407591,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/407591/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Héroes de Zaci FC",
+                        "id_team_visitante": 497941,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/497941/image/small",
+                        "placar_visitante": 1,
+                        "time_live": 36,
+                        "TEMPO": 2,
+                        "data": "22/05/2025",
+                        "hora": "19:00",
+                        "id": "4.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": null,
+                    "time_casa": "Bombarderos De Tecamac FC",
+                    "id_team_casa": 407591,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Mexico",
+                    "time_visitante": "Héroes de Zaci FC",
+                    "id_team_visitante": 497941,
+                    "placar_visitante": 1,
+                    "time_live": 36,
+                    "TEMPO": 2,
+                    "data": "22/05/2025",
+                    "hora": "19:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 1,
+                    "score_away_ht": 1,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/407591/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/497941/image/small",
+                    "id": "4.1"
+                }
+            }
+        ]
+    },
+    "USL, League Two": {
+        "campeonatos": {
+            "id": 5,
+            "pais": "USA",
+            "abreveaturaPais": "USA",
+            "campeonato": "USL, League Two",
+            "img_pais": "https://img.sofascore.com/api/v1/country/US/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Chicago Dutch Lions FC",
+                        "id_team_casa": 407745,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/407745/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "RKC Third Coast",
+                        "id_team_visitante": 465628,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/465628/image/small",
+                        "placar_visitante": 2,
+                        "time_live": 50,
+                        "TEMPO": 2,
+                        "data": "22/05/2025",
+                        "hora": "18:30",
+                        "id": "5.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "USA",
+                    "time_casa": "Chicago Dutch Lions FC",
+                    "id_team_casa": 407745,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "USA",
+                    "time_visitante": "RKC Third Coast",
+                    "id_team_visitante": 465628,
+                    "placar_visitante": 2,
+                    "time_live": 50,
+                    "TEMPO": 2,
+                    "data": "22/05/2025",
+                    "hora": "18:30",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 2,
+                    "score_away_ht": 2,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 0,
+                    "maximo_final": 0,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/407745/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/465628/image/small",
+                    "id": "5.1"
+                }
+            }
+        ]
+    },
+    "USL W League": {
+        "campeonatos": {
+            "id": 6,
+            "pais": "USA",
+            "abreveaturaPais": "USA",
+            "campeonato": "USL W League",
+            "img_pais": "https://img.sofascore.com/api/v1/country/US/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Utah United",
+                        "id_team_casa": 1077210,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/1077210/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Albion SC Colorado",
+                        "id_team_visitante": 507690,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/507690/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 10,
+                        "TEMPO": 2,
+                        "data": "22/05/2025",
+                        "hora": "19:50",
+                        "id": "6.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "F",
+                    "pais_time_home": "USA",
+                    "time_casa": "Utah United",
+                    "id_team_casa": 1077210,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "USA",
+                    "time_visitante": "Albion SC Colorado",
+                    "id_team_visitante": 507690,
+                    "placar_visitante": 0,
+                    "time_live": 10,
+                    "TEMPO": 2,
+                    "data": "22/05/2025",
+                    "hora": "19:50",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/1077210/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/507690/image/small",
+                    "id": "6.1"
+                }
+            },
+            {
+                "visual": [
+                    {
+                        "time_casa": "Southern Soccer Academy",
+                        "id_team_casa": 386313,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/386313/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Tennessee SC",
+                        "id_team_visitante": 420050,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/420050/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 12,
+                        "TEMPO": 2,
+                        "data": "22/05/2025",
+                        "hora": "20:30",
+                        "id": "6.2"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "F",
+                    "pais_time_home": "USA",
+                    "time_casa": "Southern Soccer Academy",
+                    "id_team_casa": 386313,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "USA",
+                    "time_visitante": "Tennessee SC",
+                    "id_team_visitante": 420050,
+                    "placar_visitante": 0,
+                    "time_live": 12,
+                    "TEMPO": 2,
+                    "data": "22/05/2025",
+                    "hora": "20:30",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 45,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/386313/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/420050/image/small",
+                    "id": "6.2"
+                }
+            }
+        ]
+    },
+    "Primera Division, Apertura, Main Round, Group B": {
+        "campeonatos": {
+            "id": 7,
+            "pais": "Venezuela",
+            "abreveaturaPais": "VEN",
+            "campeonato": "Primera Division, Apertura, Main Round, Group B",
+            "img_pais": "https://img.sofascore.com/api/v1/country/VE/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Carabobo",
+                        "id_team_casa": 6229,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/6229/image/small",
+                        "placar_casa": 1,
+                        "x": "x",
+                        "time_visitante": "Deportivo Táchira",
+                        "id_team_visitante": 6231,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/6231/image/small",
+                        "placar_visitante": 4,
+                        "time_live": 45,
+                        "TEMPO": "-",
+                        "data": "22/05/2025",
+                        "hora": "19:00",
+                        "id": "7.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Venezuela",
+                    "time_casa": "Carabobo",
+                    "id_team_casa": 6229,
+                    "placar_casa": 1,
+                    "x": "x",
+                    "pais_time_away": "Venezuela",
+                    "time_visitante": "Deportivo Táchira",
+                    "id_team_visitante": 6231,
+                    "placar_visitante": 4,
+                    "time_live": 45,
+                    "TEMPO": "-",
+                    "data": "22/05/2025",
+                    "hora": "19:00",
+                    "score_home_partida": 1,
+                    "score_home_ht": 1,
+                    "score_home_normal_time": 1,
+                    "score_away_partida": 4,
+                    "score_away_ht": 2,
+                    "score_away_normal_time": 3,
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/6229/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/6231/image/small",
+                    "id": "7.1"
                 }
             }
         ]
