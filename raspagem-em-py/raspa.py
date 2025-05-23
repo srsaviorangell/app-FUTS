@@ -11,6 +11,12 @@ url = 'https://www.sofascore.com/api/v1/sport/football/events/live'
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless=new")
+options.add_argument("--no-sandbox")  # Necessário no Docker ----
+options.add_argument("--disable-dev-shm-usage")  # Evita problemas de memória
+options.add_argument("--disable-gpu")
+options.add_argument("--remote-debugging-port=9222")
+options.add_argument("--user-data-dir=/tmp/chrome-user-data")  # Diretório temporário
+
 driver = webdriver.Chrome(options=options)
 
 def raspa_dados_live():
@@ -26,7 +32,7 @@ def raspa_dados_live():
     json_data = json.loads(json_text)  # Converte string para dict/list
     
     # Salva o JSON formatado com indentação
-    with open("dados.json", "w", encoding="utf-8") as f:
+    with open("shared-data/dados.json", "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=4, ensure_ascii=False)  # Formata bonito
     
     print("✅ JSON formatado e salvo em 'dados.json'!")

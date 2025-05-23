@@ -6,7 +6,7 @@ import random
 intervalos = [45, 50, 58]
 agora = int(time.time())
 
-with open ("dados.json", "r", encoding="utf-8") as live:
+with open ("shared-data/dados.json", "r", encoding="utf-8") as live:
     dados = json.load(live)
 
 def aninhamento_dados_live():
@@ -151,7 +151,7 @@ def aninhamento_dados_live():
             "dados_brutos": jogosDadosBruto
         })
     
-        with open('dados_jogos.json','w',encoding='utf-8') as arquivo:
+        with open('shared-data/dados_aninhado_live.json','w',encoding='utf-8') as arquivo:
             json.dump(json_para_API, arquivo, ensure_ascii=False, indent=4)
 
     total_geral = 0

@@ -1,13 +1,14 @@
-FROM python:3
+# Use uma imagem Python oficial com compatibilidade multiplataforma
+FROM node:22
+
 
 WORKDIR /app
 
-COPY requirements.txt ./
+COPY package*.json ./
+RUN npm install
 
-RUN pip install --no-cache-dir -r requirements.txt
+COPY API-raspagem ./
 
-COPY . .
+EXPOSE 8081
 
-ENV PYTHONUNBUFFERED=1
-
-CMD [ "sh","-c","python raspa.py & python aninhamento_de_raspagem.py && wait"]
+CMD ["node", "api.js"]

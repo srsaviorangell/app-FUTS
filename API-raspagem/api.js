@@ -6,7 +6,7 @@ const fs = require('fs');
 
 app.get("/",(req , res)=>{
 
-    fs.readFile(path.join(__dirname, 'dadosMap1.JSON'), 'utf8', (err, dados) => {
+    fs.readFile(path.join(__dirname, 'shared-data/dados_aninhado_live.json'), 'utf8', (err, dados) => {
         if (err) {
             return res.status(500).send('Erro ao ler os dados');
         }
@@ -16,7 +16,7 @@ app.get("/",(req , res)=>{
     });
 });
 app.get("/live",(req , res)=>{
-    fs.readFile(path.join(__dirname, 'dadosMap1.JSON'), 'utf8', (err, dados) => {
+    fs.readFile(path.join(__dirname, '../raspagem_em_py/dados_aninhado_live.json'), 'utf8', (err, dados) => {
         if (err) {
             return res.status(500).send('Erro ao ler os dados');
         }
