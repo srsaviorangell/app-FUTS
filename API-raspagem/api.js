@@ -3,10 +3,17 @@ const app = express();
 const path = require("path");
 const fs = require('fs');  
 
+const diretorio_de_entrada = '/app/shared-data';
+const dados_aninhado = 'dados_aninhado_live.json';
+const dados_brutos = 'dados.json';
+
+
+const entrada = path.join(diretorio_de_entrada, dados_aninhado);
+
 
 app.get("/",(req , res)=>{
 
-    fs.readFile(path.join(__dirname, 'shared-data/dados_aninhado_live.json'), 'utf8', (err, dados) => {
+    fs.readFile(entrada, 'utf8', (err, dados) => {
         if (err) {
             return res.status(500).send('Erro ao ler os dados');
         }
@@ -16,7 +23,7 @@ app.get("/",(req , res)=>{
     });
 });
 app.get("/live",(req , res)=>{
-    fs.readFile(path.join(__dirname, '../raspagem_em_py/dados_aninhado_live.json'), 'utf8', (err, dados) => {
+    fs.readFile(entrada, 'utf8', (err, dados) => {
         if (err) {
             return res.status(500).send('Erro ao ler os dados');
         }

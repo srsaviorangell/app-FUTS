@@ -1,0 +1,36 @@
+services:
+
+  futs-raspagem:
+    image: saviorangelldev/futs-raspagem:2.3
+    volumes:
+      - ./shared-data:/app/shared-data
+    restart: always
+    networks:
+      - internal_net
+  futs-aninhamento:
+    image: saviorangelldev/futs-aninhamento:2.3
+    volumes:
+      - ./shared-data:/app/shared-data
+    restart: always
+    networks:
+      - internal_net
+  
+  futs-api:
+    image: saviorangelldev/futs-api:2.2
+    volumes:  
+    - ./shared-data:/app/shared-data
+    ports:
+     - "8081:8081"
+    restart: always
+    networks:
+      - public_net
+
+volumes:
+  shared-data:
+
+networks:
+  internal_net:
+    internal: true
+  public_net:
+    external: false
+      

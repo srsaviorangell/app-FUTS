@@ -34,7 +34,7 @@ def raspa_dados_live():
     
 
     dados = "dados.json"
-    diretorio_de_saida_no_container = "shared-data" # Relativo ao WORKDIR /app
+    diretorio_de_saida_no_container = "../shared-data" # Relativo ao WORKDIR /app
     raspagem_bruta = os.path.join(diretorio_de_saida_no_container, dados)
 
     # Salva o JSON formatado com indentação

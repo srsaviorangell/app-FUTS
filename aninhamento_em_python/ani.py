@@ -7,7 +7,7 @@ import os
 
 intervalos = [45, 50, 58]
 
-diretorio_de_entrada = "shared-data" # Relativo ao WORKDIR /app
+diretorio_de_entrada = "../shared-data" # Relativo ao WORKDIR /app
 
 dados = "dados.json"
 entrada = os.path.join(diretorio_de_entrada, dados)
