@@ -1,13 +1,10 @@
-# Use uma imagem Python oficial com compatibilidade multiplataforma
 FROM python:3
 
+WORKDIR /app
 
-# Variáveis de ambiente para configuração flexível
-ENV PYTHONUNBUFFERED=1 \
-    PORT=8000 \
-    RENDER_EXTERNAL_HOSTNAME=localhost
 
-# Instala dependências do sistema para Selenium (somente se necessário)
+
+
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     wget \
@@ -15,21 +12,14 @@ RUN apt-get update && \
     chromium-driver && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
 
-# Copia e instala dependências Python primeiro (otimização de cache)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia o resto do código
 COPY . .
+ENV PYTHONUNBUFFERED=1 \
+    PORT=8000 
 
-# Configuração adaptável para Selenium
-RUN if [ "$RENDER" = "true" ]; then \
-        wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
-        dpkg -i google-chrome-stable_current_amd64.deb || apt-get install -yf && \
-        rm google-chrome-stable_current_amd64.deb; \
-    fi
 
-# Comando de inicialização adaptável
-CMD ["sh", "-c", "if [ \"$RENDER\" = \"true\" ]; then gunicorn app:app --bind 0.0.0.0:$PORT; else python raspa.py; fi"]
+
+CMD ["python","raspa.py"]

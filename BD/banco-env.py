@@ -11,12 +11,12 @@ from urllib.parse import quote_plus
 intervalos = [50, 55, 58]
 
 
-diretorio_base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-diretorio_de_entrada = os.path.join(diretorio_base,'shared-data')
-dados_aninhado = 'dados_aninhado_live.json'
-dados_brutos = 'dados.json'
-json_live_aninhado = os.path.join(diretorio_de_entrada, dados_aninhado)
-json_live_bruto = os.path.join(diretorio_de_entrada, dados_brutos)
+#diretorio_base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#diretorio_de_entrada = os.path.join(diretorio_base,'/shared-data')
+#dados_aninhado = 'dados_aninhado_live.json'
+#dados_brutos = 'dados.json'
+json_live_aninhado = "../shared-data/dados_aninhado_live.json"
+json_live_bruto = "../shared-data/dados_aninhado_dados.json"
 
 
 with open (json_live_aninhado , "r", encoding="utf-8") as live:
@@ -39,8 +39,8 @@ class BancoRaspagem:
         except Exception as e:
             print(f"falha na conexão,{e}")
 
-    def carregar_json(self, arquivo="dados_aninhado_live.json"):
-        caminho = os.path.join(diretorio_de_entrada, arquivo)
+    def carregar_json(self, arquivo=json_live_aninhado):
+        caminho = os.path.join(arquivo)
         try:
             with open(caminho,"r", encoding="utf-8") as f:
                 return json.load(f)
@@ -85,7 +85,7 @@ def main():
             tempo = random.choice(intervalos)
             print(f"⏱️ Aguardando {tempo} segundos até a próxima atualização...")
             time.sleep(tempo)
-            
+    
     except Exception as e:
         print(f"❌ Erro crítico: {e}")
     finally:

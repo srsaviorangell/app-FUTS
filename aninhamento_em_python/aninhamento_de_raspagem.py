@@ -1,39 +1,28 @@
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
-
-uri = "mongodb+srv://savio0dev:Sa07ca16@@savi0dev.qmvjqus.mongodb.net/?retryWrites=true&w=majority&appName=savi0dev"
-
-client = MongoClient(uri, server_api=ServerApi('1'))
-
-try:
-    client.admin.command('ping')
-    print("Pinged your deployment. You successfully connected to MongoDB!")
-except Exception as e:
-    print(e)
-
 import json
 import time
 from datetime import datetime
 import random
 import os
 
+agora = int(time.time())
 
 intervalos = [45, 50, 58]
 
-diretorio_de_entrada = "shared-data" # Relativo ao WORKDIR /app
+DIR_DADOS = "../shared-data"  # Caminho absoluto no container
 
 dados = "dados.json"
-entrada = os.path.join(diretorio_de_entrada, dados)
+entrada = os.path.join(DIR_DADOS, dados)
 
 saida = "dados_aninhado_live.json"
-raspagem_bruta = os.path.join(diretorio_de_entrada, saida)
+raspagem_bruta = os.path.join(DIR_DADOS, saida)
 
 
 with open (entrada , "r", encoding="utf-8") as live:
     dados = json.load(live)
 
 def aninhamento_dados_live():
-    agora = int(time.time())
+    with open (entrada , "r", encoding="utf-8") as live:
+     dados = json.load(live)
     json_para_API = {}
     id_dos_campeonatos = 1
     contador_jogos_por_campeonato = {}

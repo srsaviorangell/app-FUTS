@@ -2,35 +2,29 @@ services:
 
   futs-raspagem:
     image: saviorangelldev/futs-raspagem:2.3
+    dns: 8.8.8.8
     volumes:
-      - ./shared-data:/app/shared-data
+     - ./shared-data:/app/shared-data  # Deve ser igual em todos serviços
     restart: always
-    networks:
-      - internal_net
+  
   futs-aninhamento:
     image: saviorangelldev/futs-aninhamento:2.3
     volumes:
-      - ./shared-data:/app/shared-data
+      - ./shared-data:/shared-data  # Deve ser igual em todos serviços
     restart: always
-    networks:
-      - internal_net
+    depends_on:
+      - futs-raspagem
   
-  futs-api:
-    image: saviorangelldev/futs-api:2.2
+  futs-banco:
+    image: saviorangelldev/futs-banco:1.5
     volumes:  
-    - ./shared-data:/app/shared-data
+      - ./shared-data:/app/shared-data  # Deve ser igual em todos serviços
     ports:
-     - "8081:8081"
+      - "27017:27017"  
     restart: always
-    networks:
-      - public_net
-
+    depends_on:
+      - futs-aninhamento
 volumes:
   shared-data:
 
-networks:
-  internal_net:
-    internal: true
-  public_net:
-    external: false
       

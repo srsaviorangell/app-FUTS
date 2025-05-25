@@ -33,15 +33,13 @@ def raspa_dados_live():
     json_data = json.loads(json_text)  # Converte string para dict/list
     
 
-    dados = "dados.json"
-    diretorio_de_saida_no_container = "shared-data" # Relativo ao WORKDIR /app
-    raspagem_bruta = os.path.join(diretorio_de_saida_no_container, dados)
+    raspagem_bruta = os.path.join("../shared-data/dados.json")
 
     # Salva o JSON formatado com indentação
-    with open(raspagem_bruta, "w", encoding="utf-8") as f:
-        json.dump(json_data, f, indent=4, ensure_ascii=False)
-   # with open("../shared-data/dados.json", "w", encoding="utf-8") as f:
-     #   json.dump(json_data, f, indent=4, ensure_ascii=False)  # Formata bonito
+    #with open(raspagem_bruta, "w", encoding="utf-8") as f:
+   #     json.dump(json_data, f, indent=4, ensure_ascii=False)
+    with open("../shared-data/dados.json", "w", encoding="utf-8") as f:
+       json.dump(json_data, f, indent=4, ensure_ascii=False)  # Formata bonito
     
     print("✅ JSON formatado e salvo em 'dados.json'!")
     print("Exemplo de dados:", list(json_data.keys())[:3])
