@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install --no-cache-dir \
-    pymongo==4.3.3 \
-    python-dotenv==1.0.0
+RUN pip install --no-cache-dir 
 
 CMD ["python", "aninhamento_de_raspagem.py"]

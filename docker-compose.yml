@@ -8,7 +8,7 @@ services:
     restart: always
   
   futs-aninhamento:
-    image: saviorangelldev/futs-aninhamento:2.3
+    image: saviorangelldev/futs-aninhamento:3.9
     volumes:
       - ./shared-data:/shared-data  # Deve ser igual em todos serviços
     restart: always
@@ -16,11 +16,19 @@ services:
       - futs-raspagem
   
   futs-banco:
-    image: saviorangelldev/futs-banco:1.5
+    image: saviorangelldev/futs-banco:1.7
+    volumes:  
+      - ./shared-data:/app/shared-data  # Deve ser igual em todos serviços  
+    restart: always
+    depends_on:
+      - futs-aninhamento
+
+  futs-api:
+    image: saviorangelldev/futs-api:2.3
     volumes:  
       - ./shared-data:/app/shared-data  # Deve ser igual em todos serviços
     ports:
-      - "27017:27017"  
+      - "8081:8081"  
     restart: always
     depends_on:
       - futs-aninhamento
