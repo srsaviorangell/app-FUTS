@@ -3,22 +3,14 @@ import time
 from datetime import datetime
 import random
 import os
+from zoneinfo import ZoneInfo
 
 agora = int(time.time())
-
+#agora_brazil = datetime.fromtimestamp(agora, ZoneInfo("america/Sao_paulo"))
 intervalos = [45, 50, 58]
 
-DIR_DADOS = "../shared-data"  # Caminho absoluto no container
-
-dados = "dados.json"
-entrada = os.path.join(DIR_DADOS, dados)
-
-saida = "dados_aninhado_live.json"
-raspagem_bruta = os.path.join(DIR_DADOS, saida)
-
-
-with open (entrada , "r", encoding="utf-8") as live:
-    dados = json.load(live)
+saida = "/app/shared-data/dados_aninhado_live.json"
+entrada = '/app/shared-data/dados.json'
 
 def aninhamento_dados_live():
     with open (entrada , "r", encoding="utf-8") as live:
@@ -62,7 +54,7 @@ def aninhamento_dados_live():
 
     # Convertendo para data e hora legíveis
         data = datetime.fromtimestamp(data_timestamp).strftime("%d/%m/%Y")
-        hora = datetime.fromtimestamp(data_timestamp).strftime("%H:%M")
+        hora = datetime.fromtimestamp(data_timestamp,ZoneInfo("America/Sao_Paulo")).strftime("%H:%M")
 
     # Calculando o tempo decorrido de jogo (em minutos)
         time_jogo_bruto = evento["time"].get("currentPeriodStartTimestamp",0) #hora do jogo roando o periodo do jogo 
@@ -73,10 +65,10 @@ def aninhamento_dados_live():
             time_live = tempo_decorrido // 60
         else:
             time_live = "//"
-            
+        
+        tempo = evento["status"].get("description", "-")
 
-        tempo = evento["time"].get("totalPeriodCount", "-")
-
+        
 
     # Convertendo os tempos extras de segundos para minutos
         acrescimo_bruto = evento["time"].get("extra",0)
@@ -164,7 +156,7 @@ def aninhamento_dados_live():
             "dados_brutos": jogosDadosBruto
         })
     
-        with open(raspagem_bruta ,'w',encoding='utf-8') as arquivo:
+        with open(saida ,'w',encoding='utf-8') as arquivo:
             json.dump(json_para_API, arquivo, ensure_ascii=False, indent=4)
 
     total_geral = 0
