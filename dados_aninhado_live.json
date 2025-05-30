@@ -1,0 +1,688 @@
+{
+    "Brasileirão Betano": {
+        "campeonatos": {
+            "id": 1,
+            "pais": "Brazil",
+            "abreveaturaPais": "BRA",
+            "campeonato": "Brasileirão Betano",
+            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Red Bull Bragantino",
+                        "id_team_casa": 1999,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/1999/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Juventude",
+                        "id_team_visitante": 1980,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/1980/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 16,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "23:00",
+                        "id": "1.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Red Bull Bragantino",
+                    "id_team_casa": 1999,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Juventude",
+                    "id_team_visitante": 1980,
+                    "placar_visitante": 0,
+                    "time_live": 16,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "23:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": 0,
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": 0,
+                    "acrescimo_final": 9,
+                    "maximo_final": 45,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/1999/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/1980/image/small",
+                    "id": "1.1"
+                }
+            }
+        ]
+    },
+    "Brasileirão Série B": {
+        "campeonatos": {
+            "id": 2,
+            "pais": "Brazil",
+            "abreveaturaPais": "BRA",
+            "campeonato": "Brasileirão Série B",
+            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Criciúma",
+                        "id_team_casa": 1984,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/1984/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Coritiba",
+                        "id_team_visitante": 1982,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/1982/image/small",
+                        "placar_visitante": 1,
+                        "time_live": 14,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "22:00",
+                        "id": "2.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Criciúma",
+                    "id_team_casa": 1984,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Coritiba",
+                    "id_team_visitante": 1982,
+                    "placar_visitante": 1,
+                    "time_live": 14,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "22:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": 0,
+                    "score_away_partida": 1,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": 0,
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/1984/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/1982/image/small",
+                    "id": "2.1"
+                }
+            },
+            {
+                "visual": [
+                    {
+                        "time_casa": "Botafogo-SP",
+                        "id_team_casa": 1979,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/1979/image/small",
+                        "placar_casa": 1,
+                        "x": "x",
+                        "time_visitante": "CRB",
+                        "id_team_visitante": 22032,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/22032/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 17,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "23:00",
+                        "id": "2.2"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Botafogo-SP",
+                    "id_team_casa": 1979,
+                    "placar_casa": 1,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "CRB",
+                    "id_team_visitante": 22032,
+                    "placar_visitante": 0,
+                    "time_live": 17,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "23:00",
+                    "score_home_partida": 1,
+                    "score_home_ht": 1,
+                    "score_home_normal_time": 1,
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": 0,
+                    "acrescimo_final": 9,
+                    "maximo_final": 45,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/1979/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/22032/image/small",
+                    "id": "2.2"
+                }
+            }
+        ]
+    },
+    "División Profesional": {
+        "campeonatos": {
+            "id": 3,
+            "pais": "Bolivia",
+            "abreveaturaPais": "BOL",
+            "campeonato": "División Profesional",
+            "img_pais": "https://img.sofascore.com/api/v1/country/BO/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "The Strongest",
+                        "id_team_casa": 32529,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/32529/image/small",
+                        "placar_casa": 2,
+                        "x": "x",
+                        "time_visitante": "Academia del Balompié Boliviano",
+                        "id_team_visitante": 423188,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/423188/image/small",
+                        "placar_visitante": 2,
+                        "time_live": 12,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "22:00",
+                        "id": "3.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Bolivia",
+                    "time_casa": "The Strongest",
+                    "id_team_casa": 32529,
+                    "placar_casa": 2,
+                    "x": "x",
+                    "pais_time_away": "Bolivia",
+                    "time_visitante": "Academia del Balompié Boliviano",
+                    "id_team_visitante": 423188,
+                    "placar_visitante": 2,
+                    "time_live": 12,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "22:00",
+                    "score_home_partida": 2,
+                    "score_home_ht": 2,
+                    "score_home_normal_time": 2,
+                    "score_away_partida": 2,
+                    "score_away_ht": 1,
+                    "score_away_normal_time": 1,
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/32529/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/423188/image/small",
+                    "id": "3.1"
+                }
+            }
+        ]
+    },
+    "Primera Nacional, Group A": {
+        "campeonatos": {
+            "id": 4,
+            "pais": "Argentina",
+            "abreveaturaPais": "ARG",
+            "campeonato": "Primera Nacional, Group A",
+            "img_pais": "https://img.sofascore.com/api/v1/country/AR/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Quilmes Atlético Club",
+                        "id_team_casa": 4936,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/4936/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "San Martín de Tucumán",
+                        "id_team_visitante": 23950,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/23950/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 6,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "23:10",
+                        "id": "4.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Argentina",
+                    "time_casa": "Quilmes Atlético Club",
+                    "id_team_casa": 4936,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Argentina",
+                    "time_visitante": "San Martín de Tucumán",
+                    "id_team_visitante": 23950,
+                    "placar_visitante": 0,
+                    "time_live": 6,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "23:10",
+                    "score_home_partida": 0,
+                    "score_home_ht": "sem placar",
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": "sem placar",
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 45,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/4936/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/23950/image/small",
+                    "id": "4.1"
+                }
+            }
+        ]
+    },
+    "Brasileirão Série C": {
+        "campeonatos": {
+            "id": 5,
+            "pais": "Brazil",
+            "abreveaturaPais": "BRA",
+            "campeonato": "Brasileirão Série C",
+            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Brusque",
+                        "id_team_casa": 21884,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/21884/image/small",
+                        "placar_casa": 1,
+                        "x": "x",
+                        "time_visitante": "São Bernardo",
+                        "id_team_visitante": 47504,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/47504/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 0,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "22:30",
+                        "id": "5.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Brusque",
+                    "id_team_casa": 21884,
+                    "placar_casa": 1,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "São Bernardo",
+                    "id_team_visitante": 47504,
+                    "placar_visitante": 0,
+                    "time_live": 0,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "22:30",
+                    "score_home_partida": 1,
+                    "score_home_ht": 1,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 0,
+                    "maximo_final": 0,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/21884/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/47504/image/small",
+                    "id": "5.1"
+                }
+            },
+            {
+                "visual": [
+                    {
+                        "time_casa": "Guarani",
+                        "id_team_casa": 1972,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/1972/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Figueirense",
+                        "id_team_visitante": 1985,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/1985/image/small",
+                        "placar_visitante": 0,
+                        "time_live": -1,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "22:30",
+                        "id": "5.2"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Guarani",
+                    "id_team_casa": 1972,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Figueirense",
+                    "id_team_visitante": 1985,
+                    "placar_visitante": 0,
+                    "time_live": -1,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "22:30",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 0,
+                    "maximo_final": 0,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/1972/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/1985/image/small",
+                    "id": "5.2"
+                }
+            }
+        ]
+    },
+    "Brasileirão Série D, Group A8": {
+        "campeonatos": {
+            "id": 6,
+            "pais": "Brazil",
+            "abreveaturaPais": "BRA",
+            "campeonato": "Brasileirão Série D, Group A8",
+            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "São Luiz",
+                        "id_team_casa": 32768,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/32768/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Joinville",
+                        "id_team_visitante": 1987,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/1987/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 9,
+                        "TEMPO": 2,
+                        "data": "26/05/2025",
+                        "hora": "22:00",
+                        "id": "6.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "São Luiz",
+                    "id_team_casa": 32768,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Joinville",
+                    "id_team_visitante": 1987,
+                    "placar_visitante": 0,
+                    "time_live": 9,
+                    "TEMPO": 2,
+                    "data": "26/05/2025",
+                    "hora": "22:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/32768/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/1987/image/small",
+                    "id": "6.1"
+                }
+            }
+        ]
+    },
+    "U20 Brasileiro": {
+        "campeonatos": {
+            "id": 7,
+            "pais": "Brazil",
+            "abreveaturaPais": "BRA",
+            "campeonato": "U20 Brasileiro",
+            "img_pais": "https://img.sofascore.com/api/v1/country/BR/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Palmeiras U20",
+                        "id_team_casa": 199339,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/199339/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Flamengo U20",
+                        "id_team_visitante": 199329,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/199329/image/small",
+                        "placar_visitante": 1,
+                        "time_live": 18,
+                        "TEMPO": 2,
+                        "data": "26/05/2025",
+                        "hora": "23:00",
+                        "id": "7.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Brazil",
+                    "time_casa": "Palmeiras U20",
+                    "id_team_casa": 199339,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Brazil",
+                    "time_visitante": "Flamengo U20",
+                    "id_team_visitante": 199329,
+                    "placar_visitante": 1,
+                    "time_live": 18,
+                    "TEMPO": 2,
+                    "data": "26/05/2025",
+                    "hora": "23:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 1,
+                    "score_away_ht": 1,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 45,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/199339/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/199329/image/small",
+                    "id": "7.1"
+                }
+            }
+        ]
+    },
+    "Primera B, Apertura, Promotion, Group A": {
+        "campeonatos": {
+            "id": 8,
+            "pais": "Colombia",
+            "abreveaturaPais": "COL",
+            "campeonato": "Primera B, Apertura, Promotion, Group A",
+            "img_pais": "https://img.sofascore.com/api/v1/country/CO/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Tigres FC",
+                        "id_team_casa": 89354,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/89354/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Jaguares de Córdoba",
+                        "id_team_visitante": 89370,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/89370/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 12,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "22:15",
+                        "id": "8.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Colombia",
+                    "time_casa": "Tigres FC",
+                    "id_team_casa": 89354,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Colombia",
+                    "time_visitante": "Jaguares de Córdoba",
+                    "id_team_visitante": 89370,
+                    "placar_visitante": 0,
+                    "time_live": 12,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "22:15",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 0,
+                    "maximo_final": 0,
+                    "inicia_final": 0,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/89354/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/89370/image/small",
+                    "id": "8.1"
+                }
+            }
+        ]
+    },
+    "División de Honor, Apertura": {
+        "campeonatos": {
+            "id": 9,
+            "pais": "Paraguay",
+            "abreveaturaPais": "PRY",
+            "campeonato": "División de Honor, Apertura",
+            "img_pais": "https://img.sofascore.com/api/v1/country/PA/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Recoleta FC",
+                        "id_team_casa": 292595,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/292595/image/small",
+                        "placar_casa": 0,
+                        "x": "x",
+                        "time_visitante": "Sportivo Trinidense",
+                        "id_team_visitante": 39722,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/39722/image/small",
+                        "placar_visitante": 1,
+                        "time_live": 15,
+                        "TEMPO": "-",
+                        "data": "26/05/2025",
+                        "hora": "22:00",
+                        "id": "9.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Paraguay",
+                    "time_casa": "Recoleta FC",
+                    "id_team_casa": 292595,
+                    "placar_casa": 0,
+                    "x": "x",
+                    "pais_time_away": "Paraguay",
+                    "time_visitante": "Sportivo Trinidense",
+                    "id_team_visitante": 39722,
+                    "placar_visitante": 1,
+                    "time_live": 15,
+                    "TEMPO": "-",
+                    "data": "26/05/2025",
+                    "hora": "22:00",
+                    "score_home_partida": 0,
+                    "score_home_ht": 0,
+                    "score_home_normal_time": 0,
+                    "score_away_partida": 1,
+                    "score_away_ht": 1,
+                    "score_away_normal_time": 1,
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/292595/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/39722/image/small",
+                    "id": "9.1"
+                }
+            }
+        ]
+    },
+    "División Intermedia": {
+        "campeonatos": {
+            "id": 10,
+            "pais": "Paraguay",
+            "abreveaturaPais": "PRY",
+            "campeonato": "División Intermedia",
+            "img_pais": "https://img.sofascore.com/api/v1/country/PA/flag "
+        },
+        "jogos": [
+            {
+                "visual": [
+                    {
+                        "time_casa": "Guaireña",
+                        "id_team_casa": 249194,
+                        "escudo_team_home": "https://img.sofascore.com/api/v1/team/249194/image/small",
+                        "placar_casa": 1,
+                        "x": "x",
+                        "time_visitante": "Tacuary",
+                        "id_team_visitante": 5999,
+                        "escudo_team_away": "https://img.sofascore.com/api/v1/team/5999/image/small",
+                        "placar_visitante": 0,
+                        "time_live": 15,
+                        "TEMPO": 2,
+                        "data": "26/05/2025",
+                        "hora": "22:00",
+                        "id": "10.1"
+                    }
+                ],
+                "dados_brutos": {
+                    "genero": "M",
+                    "pais_time_home": "Paraguay",
+                    "time_casa": "Guaireña",
+                    "id_team_casa": 249194,
+                    "placar_casa": 1,
+                    "x": "x",
+                    "pais_time_away": "Paraguay",
+                    "time_visitante": "Tacuary",
+                    "id_team_visitante": 5999,
+                    "placar_visitante": 0,
+                    "time_live": 15,
+                    "TEMPO": 2,
+                    "data": "26/05/2025",
+                    "hora": "22:00",
+                    "score_home_partida": 1,
+                    "score_home_ht": 1,
+                    "score_home_normal_time": "evento sem informacao",
+                    "score_away_partida": 0,
+                    "score_away_ht": 0,
+                    "score_away_normal_time": "evento sem informacao",
+                    "acrescimo_final": 9,
+                    "maximo_final": 90,
+                    "inicia_final": 45,
+                    "escudo_team_home": "https://img.sofascore.com/api/v1/team/249194/image/small",
+                    "escudo_team_away": "https://img.sofascore.com/api/v1/team/5999/image/small",
+                    "id": "10.1"
+                }
+            }
+        ]
+    }
+}

@@ -3,7 +3,14 @@ const app = express();
 const path = require("path");
 const fs = require('fs');  
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://savio0dev:Sa07ca16@@savi0dev.qmvjqus.mongodb.net/?retryWrites=true&w=majority&appName=savi0dev";
+const cors = require('cors');
+
+const usuario = "savio0dev";
+const senha = "Sa07ca16@";
+const senhaEncoded = encodeURIComponent(senha);
+
+
+const uri = `mongodb+srv://${usuario}:${senhaEncoded}@savi0dev.qmvjqus.mongodb.net/?retryWrites=true&w=majority&appName=savi0dev`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -13,48 +20,52 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   }
 });
+let db ;
+
 async function run() {
   try {
-    // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
-    // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
-    console.log("Pinged your deployment. You successfully connected to MongoDB!");
-  } finally {
-    // Ensures that the client will close when you finish/error
-    await client.close();
+    db= client.db("raspagem");
+    console.log("✅ Conectado ao MongoDB!")
+  } catch (error) {
+      console.error("❌ erro ao conectar :", error);
+      process.exit(1);
   }
 }
-run().catch(console.dir);
 
+const porta = process.env.PORT || 8081;
 
-const diretorio_de_entrada = '/app/shared-data';
-const dados_aninhado = 'dados_aninhado_live.json';
-const dados_brutos = 'dados.json';
+app.use(cors());
+app.use(express.json());
 
+run().then(() => {
 
-const entrada = path.join(diretorio_de_entrada, dados_aninhado);
-
-
-app.get("/",(req , res)=>{
-
-    fs.readFile(entrada, 'utf8', (err, dados) => {
-        if (err) {
-            return res.status(500).send('Erro ao ler os dados');
-        }
-        
-        // Envia o conteúdo do arquivo JSON para o cliente
-        res.json(JSON.parse(dados));
+ app.listen(porta, ()=>{
+        console.log(`🚀 Server rodando na porta ${porta}`);
     });
 });
+
+app.get("/", async (req , res)=>{
+    try{
+        const dados = await db.collection('live').findOne({_id:"dados_live"});
+        res.json(dados.dados)
+    } catch(error){
+        res.status(500).json({error:"erro ao busca dados"});
+    }
+});
 app.get("/live",(req , res)=>{
-    fs.readFile(entrada, 'utf8', (err, dados) => {
+     fs.readFile(entrada, 'utf8', (err, dados) => {
         if (err) {
-            return res.status(500).send('Erro ao ler os dados');
+            console.error("Erro ao ler arquivo:", err);
+            return res.status(500).json({ error: 'Erro ao ler os dados' });
         }
-        
-        // Envia o conteúdo do arquivo JSON para o cliente
-        res.json(JSON.parse(dados));
+        try {
+            const dadosJSON = JSON.parse(dados);
+            res.json(dadosJSON);
+        } catch (error) {
+            console.error("Erro ao parsear JSON:", error);
+            res.status(500).json({ error: 'Erro ao processar dados' });
+        }
     });
 });
 app.get("/todosjogos",(req , res)=>{
@@ -76,7 +87,3 @@ app.get("/configuracao",(req , res)=>{
 
 
 
-const porta = 8081;
-app.listen(porta , ()=>{
-    console.log(`server in open ${porta}`)
-});

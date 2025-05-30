@@ -5,14 +5,20 @@ import random
 import os
 from zoneinfo import ZoneInfo
 
-agora = int(time.time())
 #agora_brazil = datetime.fromtimestamp(agora, ZoneInfo("america/Sao_paulo"))
 intervalos = [45, 50, 58]
 
 saida = "/app/shared-data/dados_aninhado_live.json"
 entrada = '/app/shared-data/dados.json'
 
+
+while not os.path.exists(entrada):
+    print(f"aguardando dados.json ser criado")
+    time.sleep(10)
+
 def aninhamento_dados_live():
+    agora = int(time.time())
+
     with open (entrada , "r", encoding="utf-8") as live:
      dados = json.load(live)
     json_para_API = {}
@@ -156,8 +162,8 @@ def aninhamento_dados_live():
             "dados_brutos": jogosDadosBruto
         })
     
-        with open(saida ,'w',encoding='utf-8') as arquivo:
-            json.dump(json_para_API, arquivo, ensure_ascii=False, indent=4)
+    with open(saida ,'w',encoding='utf-8') as arquivo:
+        json.dump(json_para_API, arquivo, ensure_ascii=False, indent=4)
 
     total_geral = 0
     for campeonato in json_para_API.values():

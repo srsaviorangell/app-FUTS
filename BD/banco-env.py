@@ -15,11 +15,11 @@ intervalos = [50, 55, 58]
 #diretorio_de_entrada = os.path.join(diretorio_base,'/shared-data')
 #dados_aninhado = 'dados_aninhado_live.json'
 #dados_brutos = 'dados.json'
-json_live_aninhado = "../shared-data/dados_aninhado_live.json"
-json_live_bruto = "../shared-data/dados_aninhado_dados.json"
+json_live_aninhado = "/app/shared-data/dados_aninhado_live.json"
+#json_live_bruto = "/shared-data/dados_aninhado_dados.json"
 
 
-with open (json_live_aninhado , "r", encoding="utf-8") as live:
+with open(json_live_aninhado, "r", encoding="utf-8") as live:
     json_live = json.load(live)
 
 class BancoRaspagem:
@@ -57,9 +57,12 @@ class BancoRaspagem:
         try:
             db = self.client[banco]
             result = db[colecao].update_one(
-                {"id": dados.get("id")},  # Assumindo que existe um campo 'id'
-                {"$set": dados},
-                upsert=True
+               {"_id": "dados_live"},  # ID fixo para sempre sobrescrever
+                {"$set": {
+                "timestamp": int(time.time()),
+                "dados": dados
+            }},
+            upsert=True
             )
             print(f"📌 Dados {'inseridos' if result.upserted_id else 'atualizados'}")
             return True
