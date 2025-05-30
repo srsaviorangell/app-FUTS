@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "app-futs": "file:",
-    "express": "^4.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "mongodb": "^6.16.0",
     "node-schedule": "^2.1.1",
     "puppeteer": "^23.3.0"
