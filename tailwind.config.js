@@ -3,8 +3,8 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-  content: ["./views/**/*.handlebars",
-    "./views/**/*.html",
+  content: ["./views/**/*.{html,handlebars}",
+  "./layout/**/*.{html,handlebars}",
   ],
   theme: {
     extend: {
@@ -14,7 +14,7 @@ module.exports = {
 
       },
       colors: {
-        colorapp: '#333030',
+        colorapp: '#191A1C',
         cormenu: '#403C3C',
         corletreiro:'#404040',
         'corbordas': '#6D6D6F',
@@ -25,6 +25,8 @@ module.exports = {
     boxShadow: {
       'inner-custom': 'inset 1px 4px 10px 0px rgba(0, 0, 0, 1)', // Adiciona sua sombra interna personalizada
       'escudo': '4px 4px 3px 0 rgba(255, 255, 255, 0.6)', 
+      'neumorph': '8px 8px 15px #141414, -8px -8px 15px #2a2a2a', 
+
     },gridTemplateRows: {
       // Adiciona uma configuração para 19 linhas
       '19': 'repeat(19, minmax(0, 1fr))',
