@@ -15,8 +15,8 @@
     
 
 </head>
-<body class=" overflow-hidden h-lvh max-h-screen grid grid-rows-12 justify-items-center items-center bg-colorapp">
-    <header class="  w-screen  mt-5  row-start-12 row-span-1  flex justify-center items-center">
+<body class=" w-screen overflow-y-hidden h-lvh grid grid-rows-12 justify-items-center items-center bg-colorapp">
+    <header class=" w-screen mt-[1.2rem] row-start-12 row-span-1  flex justify-center items-center">
         <menu class= "bg-colorapp  w-screen h-14 flex justify-between items-center  -mt-5 rounded-bl-custom rounded-br-custom  shadow-inner-custom">
              <!-- homer-->
             <div class="  flex justify-center items-center  w-20 h-18 p-2 ">
@@ -58,336 +58,532 @@
 
 
 
-    <main class=" shadow-conteiner	w-[96%] row-start-2 row-span-10  h-full grid grid-rows-4" >
+    <main class="  w-screen shadow-conteiner row-start-2 row-span-10 h-full grid grid-rows-3" >
         <!-- live -->
-        <div class= "  row-start-1 row-span-1 h-full  ">
-                <div class="flex flex-col justify-start h-full text-center">
-                    <div class=" font-black text-white w-20  rounded-[1.15rem] border-[0.rem] h-5 ">LIVE</div> <!-- nome-->
-                    <!--conteiner dos jogos live-->
-                    <div  id="conteiner-times-live" class="mt-1  m- grid grid-cols-3 h-full">
+        <div class= " w-screen  row-start-1 row-span-1 h-full  ">
+                <div class="flex flex-col justify-start  h-full text-center">
                     
-                        <div id="times-live-1" class="bg-coolo  rounded-[12rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                            <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                                <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                        <span class="mx-auto">
-                                            LIVE
+                    <div class=" flex justify-start" >
+                       <p class=" pl-[0.5rem] font-black text-white inline-block">LIVE </p>
+                    </div> 
+
+                    <div class="  flex w-full h-full overflow-y-hidden scrollbar-hide snap-x snap-mandatory scroll-smooth">   
+                        <!--conteiner dos jogos live que faz o grid -->
+                         <div  id="conteiner-grid" class=" flex gap-2 items-center ">
+                            <!-- retangulo1 -->
+                            <div id="live-1" class="  flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive1" class="  relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[1.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
                                         </span>
-                                </div>
-                                <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                    <span>
-                                        0 
-                                    </span>
-                                    <span>
-                                        x 
-                                    </span>
-                                    <span>
-                                        1
-                                    </span>
-                                </div>
-                               
-                                <!-- Parte vermelha (Home) -->
-                                <div class="  absolute inset-0  bg-red-600/10 clip-home flex items-start justify-start">
-                                  <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
-                                </div>
-                                <!-- Parte amarela (Visitante) -->
-                                <div class=" absolute inset-0 bg-opacity-30 bg-slate-500/10 clip-visitor flex items-end justify-end">
-                                  <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-
-                        
-
-
-
-
-
-
-                        <div id="times-live-2" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                            <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                                <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
                                 
-                                <!-- Parte vermelha (Home) -->
-                                <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                                  <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img w-9 h-10 m-2">
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
                                 </div>
-                                <!-- Parte amarela (Visitante) -->
-                                <div class="absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                                  <img src="/src/logos/corint.png" alt="Visitor Logo" class=" img w-9 h-10 m-2">
-                                </div>
-                            </div>
+                            </div><!-- fim do  retangulo1 -->
                             
-                        </div>
+                            <!-- retangulo2 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo2 -->
 
-                        <div id="times-live-3" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                            <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                                <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
-                                <!-- Parte vermelha (Home) -->
-                                <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                                  <img src="/src/logos/flamengo.png" alt="Home Logo" class="img w-8 h-10 m-2">
+                            <!-- retangulo3 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
                                 </div>
-                                <!-- Parte amarela (Visitante) -->
-                                <div class="absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                                  <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img w-9 h-10 m-2">
+                            </div><!-- fim do  retangulo3 -->
+
+                            <!-- retangulo4 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
                                 </div>
-                            </div>
+                            </div><!-- fim do  retangulo4 -->
+                            <!-- retangulo5 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo5 -->
+                            
+                           
+
+                        
                         </div>
                     </div>
-                    <div class=" shadow-elevo  mt-1 border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
                 </div>
         </div>
+        <!-- fim do live -->
+
         
         <!-- proximos -->
-        <div class= "  row-start-2 row-span-1 h-full  ">
-            <div class="flex flex-col justify-start h-full text-center">
-                <div class="shadow-elevo flex justify-center items-center text-center text-border-red bg-[#6D6D6F] font-ubuntu  font-black text-white w-full mt-1  rounded-[1.15rem] border-[0.rem] h-5 ">PROXIMOS</div>
-                <div class=" shadow-elevo flex mt-1  border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
-                <!--conteiner dos jogos live-->
-                <div class="mt-1  m- grid grid-cols-3 h-full">
-                   
-                    <div id="times-live-1" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                        <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                            <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
-                           
-                            <!-- Parte vermelha (Home) -->
-                            <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                              <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                            <!-- Parte amarela (Visitante) -->
-                            <div class=" absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                              <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="times-live-1" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                        <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                            <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
-                           
-                            <!-- Parte vermelha (Home) -->
-                            <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                              <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                            <!-- Parte amarela (Visitante) -->
-                            <div class=" absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                              <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="times-live-1" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                        <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                            <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
-                           
-                            <!-- Parte vermelha (Home) -->
-                            <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                              <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                            <!-- Parte amarela (Visitante) -->
-                            <div class=" absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                              <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=" shadow-elevo  mt-1 border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
-            </div>
-         </div>
-       
+        <div class= " w-screen  row-start-2 row-span-1 h-full  ">
+                <div class="flex flex-col justify-start h-full text-center">
+                    <div class=" flex justify-start" >
+                        <p class=" pl-[0.5rem] font-black text-white inline-block">PROXIMOS </p>
 
-      
-        
-        <!-- futuros -->
-        <div class= "  row-start-3 row-span-1 h-full  ">
-            <div class="flex flex-col justify-start h-full text-center">
-                <div class="shadow-elevo flex justify-center items-center text-center text-border-red bg-[#6D6D6F] font-ubuntu  font-black text-white w-full mt-1 rounded-[1.15rem] border-[0.rem] h-5 ">JOGOS DO DIA</div>
-                <div class=" shadow-elevo flex mt-1  border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
-                <!--conteiner dos jogos live-->
-                <div class="mt-1  m- grid grid-cols-3 h-full">
-                    <div id="times-live-1" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                        <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                            <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
+                    </div> 
+                    <div class=" flex w-full h-full  overflow-y-hidden scrollbar-hide snap-x snap-mandatory scroll-smooth">   
+                        <!--conteiner dos jogos live que faz o grid -->
+                         <div  id="conteiner-grid" class=" flex gap-2 items-center ">
+                            <!-- retangulo1 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive1" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo1 -->
+                            
+                            <!-- retangulo2 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo2 -->
+
+                            <!-- retangulo3 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo3 -->
+
+                            <!-- retangulo4 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo4 -->
+                            <!-- retangulo5 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo5 -->
+                            
                            
-                            <!-- Parte vermelha (Home) -->
-                            <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                              <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                            <!-- Parte amarela (Visitante) -->
-                            <div class=" absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                              <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="times-live-1" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                        <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                            <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
-                           
-                            <!-- Parte vermelha (Home) -->
-                            <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                              <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                            <!-- Parte amarela (Visitante) -->
-                            <div class=" absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                              <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="times-live-1" class="bg-gradiente1 shadow-elevo rounded-[0.50rem] flex justify-center items-center  w-[6.57rem] h-full ">
-                        <div class="relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
-                            <div class=" font-orbitron font-bold backdrop-blur-sm flex justify-center items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
-                                    <span class="mx-auto">
-                                        LIVE
-                                    </span>
-                            </div>
-                            <div class="   font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
-                                <span>
-                                    0 
-                                </span>
-                                <span>
-                                    x 
-                                </span>
-                                <span>
-                                    1
-                                </span>
-                            </div>
-                           
-                            <!-- Parte vermelha (Home) -->
-                            <div class="  absolute inset-0  bg-red-600 clip-home flex items-start justify-start">
-                              <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
-                            <!-- Parte amarela (Visitante) -->
-                            <div class=" absolute inset-0 bg-opacity-30 bg-slate-500 clip-visitor flex items-end justify-end">
-                              <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
-                            </div>
+
+                        
                         </div>
                     </div>
                 </div>
-                <div class=" shadow-elevo  mt-1 border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
-            </div>
-         </div>
-      
-        <!-- noticias -->
-        <div class= "  row-start-4 row-span-1 h-full  ">
-            <div class="flex flex-col justify-start h-full text-center">
-                <div class="shadow-elevo flex justify-center items-center text-center text-border-red bg-[#6D6D6F] font-ubuntu  font-black text-white w-full mt-1 rounded-[1.15rem] border-[0.rem] h-5 ">NOTICIAS</div>
-                <div class=" shadow-elevo flex mt-1  border-[0.2rem] border-corbordas shadow-black  shadow-inner-custom w-full rounded-[1.25rem]  "></div>
-                <!--conteiner dos jogos live-->
-                <div class=" grid grid-cols-2 h-full ">
-                    <div class=" rounded-[1.55rem] flex ml-1 border-2 w-[10.57rem] h-full mt-[0.75rem] "></div>
-                    <div class=" rounded-[1.55rem] flex border-2 w-[10.57rem] h-full mt-[0.75rem]"></div>
+        </div>
+        <!-- fim do proximos -->
+
+        <!-- jogos do dia  -->
+        <div class= " w-screen  row-start-3 row-span-1 h-full  ">
+                <div class="flex flex-col justify-start h-full text-center">
+                    <div class=" flex justify-start" >
+                        <p class=" pl-[0.5rem] font-black text-white inline-block">JOGOS DO DIA </p>
+
+                    </div> 
+                    <div class=" flex w-full h-full  overflow-y-hidden scrollbar-hide snap-x snap-mandatory scroll-smooth">   
+                        <!--conteiner dos jogos live que faz o grid -->
+                         <div  id="conteiner-grid" class=" flex gap-2 items-center ">
+                            <!-- retangulo1 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive1" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo1 -->
+                            
+                            <!-- retangulo2 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo2 -->
+
+                            <!-- retangulo3 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo3 -->
+
+                            <!-- retangulo4 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem]snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo4 -->
+                            <!-- retangulo5 -->
+                            <div id="live-1" class=" flex-shrink-0 rounded-[12rem] flex justify-center items-center w-[8rem] h-[9.8rem] snap-start ">
+                                <div id="conteinerlive" class=" relative w-[93%] h-[93%] overflow-hidden bg-gradiente1 shadow-elevo rounded-[0.50rem]  ">
+                                    <div id="conteinerNome" class=" font-orbitron font-bold backdrop-blur-sm flex justify-ceSnter items-center absolute z-10 border text-white text-border-red text-[0.35rem] rounded-[1.15rem] w-[1.5rem] h-[0.8rem] left-[4.25rem] top-[0.18rem]">
+                                            <span class="mx-auto">
+                                                LIVE
+                                            </span>
+                                    </div>
+                                    <div id="conteinerPlacar" class="  font-orbitron font-bold flex backdrop-blur-sm flex-col justify-center items-center absolute z-10 border text-white text-border-red text-[0.5rem] rounded-[1.15rem] w-[0.88rem] h-[40px] left-[44px] top-[33px]">
+                                        <span>
+                                            0 
+                                        </span>
+                                        <span>
+                                            x 
+                                        </span>
+                                        <span>
+                                            1
+                                        </span>
+                                    </div>
+                                
+                                    <!-- Parte do time cima (Home) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-red-600/10 clip-home flex items-start justify-start">
+                                    <img src="/src/logos/flamengo.png" alt="Home Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                    <!-- Parte time baixo (Visitante) -->
+                                    <div class="  absolute inset-0 bg-opacity-30 bg-slate-600/10 clip-visitor flex items-end justify-end">
+                                    <img src="/src/logos/botaesc.png" alt="Visitor Logo" class=" img min-w-9 h-10 m-2">
+                                    </div>
+                                </div>
+                            </div><!-- fim do  retangulo5 -->
+                            
+                           
+
+                        
+                        </div>
+                    </div>
                 </div>
-            </div>
-         </div>
-        
+        </div>
+        <!-- fim do jogos do dia -->
+       
     </main>
 
 
-   <footer class="w-screen h-12 mb-12 px-8 mt-[3.5rem]">
+   <footer class=" w-screen h-12 mb-[3.5rem] pt-[0.8rem] px-8 mt-[2.5rem] row-start-1 ">
     <nav class="flex w-full text-white">
         <div class="flex justify-between items-center w-full ">
                 <a href="pagina2.html" class= "flex items-center justify-center ">

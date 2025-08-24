@@ -47,6 +47,9 @@ module.exports = {
           'clip-path': 'polygon(100% 0, 100% 100%, 0 100%)',
         },
       });
+
     }),
+    require('tailwind-scrollbar-hide')
+
   ],
-}
+};
